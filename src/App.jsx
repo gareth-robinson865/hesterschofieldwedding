@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <h1>Hester and Schofield wedding</h1>
-
+      
       <p>Welcome message</p>
       <p>Name input</p> 
       <p>Are you attending</p>
