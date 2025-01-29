@@ -10,6 +10,13 @@ function App() {
       
       <p>Welcome message</p>
       <p>Name input</p> 
+      <form>
+        <label>Who is responding</label> <br></br>
+        <input type="text" id="name" name="name" placeholder="who is responding" required></input>
+      </form>
+      <form>
+        <input type="radio"></input>
+      </form>
       <p>Are you attending</p>
       <br></br>
       <h3>options if atteding is true</h3>
