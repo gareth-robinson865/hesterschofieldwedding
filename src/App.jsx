@@ -22,7 +22,7 @@ function App() {
         <label htmlFor="no">No, i will not be attending</label>
       </form> 
       
-      <p>If no then...</p>
+      <h3>If no then...</h3>
       <form>
         <label htmlFor="message">Sorry you cannot make it, feel free to send us a message</label><br></br>
         <input type="textarea"></input>
@@ -30,7 +30,8 @@ function App() {
       </form>
       
       <br></br>
-      <h3>options if atteding is true</h3>
+
+      <h3>If attending then...</h3>
       <p>food choices (need from chloe)</p>
       <p>dietary requirements</p>
       <p>tick box to say sent money</p>
