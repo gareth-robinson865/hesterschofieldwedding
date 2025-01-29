@@ -15,9 +15,7 @@ function App() {
         <input type="text" id="name" name="name"  required></input><br></br>
         <input type="radio"></input>
       </form>
-      <form>
-        
-      </form>
+      
       <p>Are you attending</p>
       <br></br>
       <h3>options if atteding is true</h3>
