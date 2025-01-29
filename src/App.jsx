@@ -13,10 +13,16 @@ function App() {
       <form>
         <label htmlFor="name">Who is responding</label> <br></br>
         <input type="text" id="name" name="name"  required></input><br></br>
-        <input type="radio"></input>
-      </form>
+
+        <p>Will you be attending?</p>
+        <input type="radio" id="yes" name="attending" value="YES"></input>
+        <label htmlFor="yes">Yes, i will be attending</label>
+
+        <input type="radio" id="no" name="attending" value="NO"></input>
+        <label htmlFor="no">No, i will not be attending</label>
+      </form> 
       
-      <p>Are you attending</p>
+      
       <br></br>
       <h3>options if atteding is true</h3>
       <p>food choices (need from chloe)</p>
