@@ -22,6 +22,12 @@ function App() {
         <label htmlFor="no">No, i will not be attending</label>
       </form> 
       
+      <p>If no then...</p>
+      <form>
+        <label htmlFor="message">Sorry you cannot make it, feel free to send us a message</label><br></br>
+        <input type="textarea"></input>
+        <button type="submit">Click to send</button>
+      </form>
       
       <br></br>
       <h3>options if atteding is true</h3>
