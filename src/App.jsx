@@ -25,13 +25,19 @@ function App() {
       <h3>If no then...</h3>
       <form>
         <label htmlFor="message">Sorry you cannot make it, feel free to send us a message</label><br></br>
-        <input type="textarea"></input>
+        <input type="textarea" id="message"></input>
         <button type="submit">Click to send</button>
       </form>
       
       <br></br>
 
       <h3>If attending then...</h3>
+      <form>
+        <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
+        <input type="text" id="dietary" name="dietary"></input>
+
+        
+      </form>
       <p>food choices (need from chloe)</p>
       <p>dietary requirements</p>
       <p>tick box to say sent money</p>
