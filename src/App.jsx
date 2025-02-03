@@ -1,25 +1,9 @@
 
-import { useState } from 'react'
+
 import './App.css'
 
 function App() {
-  const [starter, setStarter] = useState([
-    {title: 'Baked Goats Cheese Crottin', id: 1},
-    {title: 'Thai Spiced Fish Cakes', id: 2},
-    {title: 'Warm Asparagus and Tomato Tart (Vegan)', id: 3}
-  ])
 
-  const [main, setMain] = useState([
-    {title: 'Fillet of Yorkshire Beef en Croute', id: 1},
-    {title: 'Fillet of Salmon en Croute', id: 2},
-    {title: 'Butternut Squash and Lentil en Croute (Vegan)', id: 3}
-  ])
-
-  const [dessert, setDessert] = useState([
-    {title: 'Sticky Toffee Pudding', id: 1},
-    {title: 'Chocolate Brownie', id: 2},
-    {title: 'Bowl of Fruit (Vegan)', id: 3}
-  ])
 
   return (
     <>
@@ -50,6 +34,8 @@ function App() {
 
       <h3>If attending then...</h3>
       <form>
+        <h3>Food Choice</h3>
+      
         <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
         <input type="text" id="dietary" name="dietary"></input>
         <br></br>
