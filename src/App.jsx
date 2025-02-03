@@ -45,7 +45,16 @@ function App() {
       <h3>If attending then...</h3>
       <form>
         <h3>Food Choice</h3>
-      
+        <h4>Starters</h4>
+        <label htmlFor="starter1">{starter1}</label>
+        <input type="radio" id="starter1" name="starters" value="cheese"></input> <br></br>
+
+        <label htmlFor="starter2">{starter2}</label>
+        <input type="radio" id="starter2" name="starters" value="fishcakes"></input> <br></br>
+
+        <label htmlFor="starter3">{starter3}</label>
+        <input type="radio" id="starter3" name="starters" value="tart"></input> <br></br>
+
         <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
         <input type="text" id="dietary" name="dietary"></input>
         <br></br>
