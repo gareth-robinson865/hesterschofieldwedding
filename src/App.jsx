@@ -6,19 +6,19 @@ function App() {
   const [starter, setStarter] = useState([
     {title: 'Baked Goats Cheese Crottin', id: 1},
     {title: 'Thai Spiced Fish Cakes', id: 2},
-    {title: 'Warm Asparagus and Tomato Tart', id: 3}
+    {title: 'Warm Asparagus and Tomato Tart (Vegan)', id: 3}
   ])
 
   const [main, setMain] = useState([
     {title: 'Fillet of Yorkshire Beef en Croute', id: 1},
     {title: 'Fillet of Salmon en Croute', id: 2},
-    {title: 'Butternut Squash and Lentil en Croute', id: 3}
+    {title: 'Butternut Squash and Lentil en Croute (Vegan)', id: 3}
   ])
 
   const [dessert, setDessert] = useState([
-    {title: 'dessert1', id: 1},
-    {title: 'dessert2', id: 2},
-    {title: 'dessert3', id: 3}
+    {title: 'Sticky Toffee Pudding', id: 1},
+    {title: 'Chocolate Brownie', id: 2},
+    {title: 'Bowl of Fruit (Vegan)', id: 3}
   ])
 
   return (
