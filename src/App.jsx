@@ -42,6 +42,8 @@ function App() {
         <label htmlFor="favSong">Let us know your favourite song</label>
         <input type="text" id="favSong" name="favSong"></input>
         <br></br>
+        <label htmlFor="favDrink">Let us know your favourite drink</label>
+        <input type="text" id="favDrink" name="favDrink"></input>
       </form>
       <p>food choices (need from chloe)</p>
       
