@@ -36,7 +36,8 @@ function App() {
         <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
         <input type="text" id="dietary" name="dietary"></input>
 
-        
+        <label htmlFor="moneySent">Have you sent the money over for the bar?</label>
+        <input type="checkbox" id="moneySent" name="moneySent"></input>
       </form>
       <p>food choices (need from chloe)</p>
       <p>dietary requirements</p>
