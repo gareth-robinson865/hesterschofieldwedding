@@ -65,6 +65,16 @@ function App() {
         <label htmlFor="main3">{main3}</label>
         <input type="radio" id="main3" name="mains" value="squash"></input> <br></br>
 
+        <h4>Desserts</h4>
+        <label htmlFor="dessert1">{dessert1}</label>
+        <input type="radio" id="dessert1" name="desserts" value="toffee"></input> <br></br>
+
+        <label htmlFor="dessert2">{dessert2}</label>
+        <input type="radio" id="dessert2" name="desserts" value="brownie"></input> <br></br>
+
+        <label htmlFor="dessert3">{dessert3}</label>
+        <input type="radio" id="dessert3" name="desserts" value="vegan"></input> <br></br>
+
         <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
         <input type="text" id="dietary" name="dietary"></input>
         <br></br>
