@@ -10,9 +10,9 @@ function App() {
   ])
 
   const [main, setMain] = useState([
-    {title: 'main1', id: 1},
-    {title: 'main2', id: 2},
-    {title: 'main3', id: 3}
+    {title: 'Fillet of Yorkshire Beef en Croute', id: 1},
+    {title: 'Fillet of Salmon en Croute', id: 2},
+    {title: 'Butternut Squash and Lentil en Croute', id: 3}
   ])
 
   const [dessert, setDessert] = useState([
