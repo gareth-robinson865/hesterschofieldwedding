@@ -38,6 +38,9 @@ function App() {
         <br></br>
         <label htmlFor="moneySent">Have you sent the money over for the bar?</label>
         <input type="checkbox" id="moneySent" name="moneySent"></input>
+        <br></br>
+        <label htmlFor="favSong">Let us know your favourite song</label>
+        <input type="text" id="favSong" name="favSong"></input>
       </form>
       <p>food choices (need from chloe)</p>
       
