@@ -4,9 +4,9 @@ import './App.css'
 
 function App() {
   const [starter, setStarter] = useState([
-    {title: 'starter1', id: 1},
-    {title: 'starter2', id: 2},
-    {title: 'starter3', id: 3}
+    {title: 'Baked Goats Cheese Crottin', id: 1},
+    {title: 'Thai Spiced Fish Cakes', id: 2},
+    {title: 'Warm Asparagus and Tomato Tart', id: 3}
   ])
 
   const [main, setMain] = useState([
