@@ -9,6 +9,18 @@ function App() {
     {title: 'starter3', id: 3}
   ])
 
+  const [main, setMain] = useState([
+    {title: 'main1', id: 1},
+    {title: 'main2', id: 2},
+    {title: 'main3', id: 3}
+  ])
+
+  const [dessert, setDessert] = useState([
+    {title: 'dessert1', id: 1},
+    {title: 'dessert2', id: 2},
+    {title: 'dessert3', id: 3}
+  ])
+
   return (
     <>
       <h1>Hester and Schofield wedding</h1>
