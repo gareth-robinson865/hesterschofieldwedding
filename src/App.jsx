@@ -40,8 +40,8 @@ function App() {
         <input type="checkbox" id="moneySent" name="moneySent"></input>
       </form>
       <p>food choices (need from chloe)</p>
-      <p>dietary requirements</p>
-      <p>tick box to say sent money</p>
+      
+      
       <p>favorite song</p>
       <p>favorite drink</p>
     </>
