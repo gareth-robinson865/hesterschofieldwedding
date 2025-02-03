@@ -46,10 +46,7 @@ function App() {
         <input type="text" id="favDrink" name="favDrink"></input>
       </form>
       <p>food choices (need from chloe)</p>
-      
-      
-      <p>favorite song</p>
-      <p>favorite drink</p>
+
     </>
   )
 }
