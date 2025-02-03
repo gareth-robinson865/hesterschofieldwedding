@@ -1,8 +1,13 @@
 
+import { useState } from 'react'
 import './App.css'
 
 function App() {
-  
+  const [starter, setStarter] = useState([
+    {title: 'starter1', id: 1},
+    {title: 'starter2', id: 2},
+    {title: 'starter3', id: 3}
+  ])
 
   return (
     <>
