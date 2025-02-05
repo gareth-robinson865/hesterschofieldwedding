@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   const [showAttending, setShowAttending] = useState(false)
   const [showNotAttending, setShowNotAttending] = useState(false)
-  
+
   const starter1 = 'Baked Goats Cheese Crottin';
   const starter2 = 'Thai Spiced Fish Cakes';
   const starter3 = 'Warm Asparagus and Tomato Tart (Vegan)';
@@ -29,10 +29,10 @@ function App() {
         <input type="text" id="name" name="name"  required></input><br></br>
 
         <p>Will you be attending?</p>
-        <input type="radio" id="yes" name="attending" value="YES"></input>
+        <input type="radio" id="yes" name="attending" value="YES" onChange={() => setShowAttending(true)}></input>
         <label htmlFor="yes">Yes, i will be attending</label>
 
-        <input type="radio" id="no" name="attending" value="NO"></input>
+        <input type="radio" id="no" name="attending" value="NO" onChange={() => setShowNotAttending(true)}></input>
         <label htmlFor="no">No, i will not be attending</label>
       </form> 
       
