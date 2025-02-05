@@ -87,7 +87,7 @@ function App() {
         <label htmlFor="favDrink">Let us know your favourite drink</label>
         <input type="text" id="favDrink" name="favDrink"></input>
       </form>
-      <p>food choices (need from chloe)</p>
+      
 
     </>
   )
