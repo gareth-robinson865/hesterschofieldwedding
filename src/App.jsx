@@ -5,6 +5,7 @@ import './App.css'
 function App() {
   const [showAttending, setShowAttending] = useState(false)
   const [showNotAttending, setShowNotAttending] = useState(false)
+  
   const starter1 = 'Baked Goats Cheese Crottin';
   const starter2 = 'Thai Spiced Fish Cakes';
   const starter3 = 'Warm Asparagus and Tomato Tart (Vegan)';
