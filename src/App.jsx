@@ -43,7 +43,7 @@ function App() {
       <br></br>
 
       <h3>If attending then...</h3>
-      <form>
+      <form id="attending">
         <h3>Food Choice</h3>
         <h4>Starters</h4>
         <label htmlFor="starter1">{starter1}</label>
