@@ -1,8 +1,9 @@
 
+import { useState } from 'react';
 import './App.css'
 
 function App() {
-  
+  const [showAttendingOptions, setShowAttendingOptions] = useState(true)
   const starter1 = 'Baked Goats Cheese Crottin';
   const starter2 = 'Thai Spiced Fish Cakes';
   const starter3 = 'Warm Asparagus and Tomato Tart (Vegan)';
