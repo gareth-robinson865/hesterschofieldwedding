@@ -37,6 +37,7 @@ function App() {
       <form id="notAttending">
         <label htmlFor="message">Sorry you cannot make it, feel free to send us a message</label><br></br>
         <input type="textarea" id="message"></input>
+        <br></br>
         <button type="submit">Click to send</button>
       </form>
       
@@ -86,8 +87,8 @@ function App() {
         <br></br>
         <label htmlFor="favDrink">Let us know your favourite drink</label>
         <input type="text" id="favDrink" name="favDrink"></input>
-
-        <button type="submit"></button>
+        <br></br>
+        <button type="submit">Submit</button>
       </form>
       
 
