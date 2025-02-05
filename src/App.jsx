@@ -49,7 +49,6 @@ function App() {
         <label htmlFor="no">No, i will not be attending</label>
       </form> 
       
-      <h3>If no then...</h3>
       { showNotAttending && <form id="notAttending">
         <label htmlFor="message">Sorry you cannot make it, feel free to send us a message</label><br></br>
         <input type="textarea" id="message"></input>
@@ -59,7 +58,6 @@ function App() {
       }
       <br></br>
 
-      <h3>If attending then...</h3>
       { showAttending && <form id="attending">
         <h3>Food Choice</h3>
         <h4>Starters</h4>
