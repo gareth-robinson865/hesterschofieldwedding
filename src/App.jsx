@@ -50,17 +50,17 @@ function App() {
       </form> 
       
       <h3>If no then...</h3>
-      <form id="notAttending">
+      { showNotAttending && <form id="notAttending">
         <label htmlFor="message">Sorry you cannot make it, feel free to send us a message</label><br></br>
         <input type="textarea" id="message"></input>
         <br></br>
         <button type="submit">Click to send</button>
       </form>
-      
+      }
       <br></br>
 
       <h3>If attending then...</h3>
-      <form id="attending">
+      { showAttending && <form id="attending">
         <h3>Food Choice</h3>
         <h4>Starters</h4>
         <label htmlFor="starter1">{starter1}</label>
@@ -106,6 +106,7 @@ function App() {
         <br></br>
         <button type="submit">Submit</button>
       </form>
+      }
       
 
     </>
