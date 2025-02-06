@@ -37,8 +37,7 @@ function App() {
     <>
       <Title />
       <Welcome />
-      <p>Welcome message</p>
-      <p>Name input</p> 
+      
       <form id="generic">
         <label htmlFor="name">Who is responding</label> <br></br>
         <input type="text" id="name" name="name"  required></input><br></br>
