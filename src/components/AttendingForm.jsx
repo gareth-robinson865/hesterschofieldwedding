@@ -42,18 +42,22 @@ export default function AttendingForm() {
 
             <label htmlFor="dessert3">{dessert3}</label>
             <input type="radio" id="dessert3" name="desserts" value="vegan"></input> <br></br>
-
+            <br></br>
             <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
             <input type="text" id="dietary" name="dietary"></input>
+            <br></br>
             <br></br>
             <label htmlFor="moneySent">Have you sent the money over for the bar?</label>
             <input type="checkbox" id="moneySent" name="moneySent"></input>
             <br></br>
+            <br></br>
             <label htmlFor="favSong">Let us know your favourite song</label>
             <input type="text" id="favSong" name="favSong"></input>
             <br></br>
+            <br></br>
             <label htmlFor="favDrink">Let us know your favourite drink</label>
             <input type="text" id="favDrink" name="favDrink"></input>
+            <br></br>
             <br></br>
             <button type="submit">Submit</button>
       </form>
