@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './App.css'
 import Title from './components/title';
 import Welcome from './components/welcome';
+import NotAttendingForm from './NotAttendingForm';
 
 function App() {
   const [showAttending, setShowAttending] = useState(false)
@@ -50,12 +51,7 @@ function App() {
         <label htmlFor="no">No, i will not be attending</label>
       </form> 
       
-      { showNotAttending && <form id="notAttending">
-        <label htmlFor="message">Sorry you cannot make it, feel free to send us a message</label><br></br>
-        <input type="textarea" id="message"></input>
-        <br></br>
-        <button type="submit">Click to send</button>
-      </form>
+      { showNotAttending && 
       }
       <br></br>
 
