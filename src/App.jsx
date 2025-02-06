@@ -1,8 +1,8 @@
-
 import { useState } from 'react';
 import './App.css'
 import Title from './components/title';
 import WelcomeMessage from './components/welcomeMessage';
+import WelcomeForm from './components/WelcomeForm';
 import AttendingForm from './components/AttendingForm';
 import NotAttendingForm from './NotAttendingForm';
 
@@ -24,7 +24,7 @@ function App() {
     <>
       <Title />
       <WelcomeMessage />
-      
+      <WelcomeForm updateAttending={updateAttending} updateNotAttending={updateNotAttending} />
       <form id="generic">
         <label htmlFor="name">Who is responding</label> <br></br>
         <input type="text" id="name" name="name"  required></input><br></br>
