@@ -59,7 +59,6 @@ export default function AttendingForm() {
             <input type="text" id="favDrink" name="favDrink"></input>
             <br></br>
             <br></br>
-            <button type="submit">Submit</button>
       </form>
     )
 }
