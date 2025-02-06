@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import './App.css'
 import Title from './components/title';
-import Welcome from './components/welcome';
+import WelcomeMessage from './components/welcomeMessage';
 import NotAttendingForm from './NotAttendingForm';
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
   return (
     <>
       <Title />
-      <Welcome />
+      <WelcomeMessage />
       
       <form id="generic">
         <label htmlFor="name">Who is responding</label> <br></br>
