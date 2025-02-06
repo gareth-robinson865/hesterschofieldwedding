@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import './App.css'
 import Title from './components/title';
+import Welcome from './components/welcome';
 
 function App() {
   const [showAttending, setShowAttending] = useState(false)
