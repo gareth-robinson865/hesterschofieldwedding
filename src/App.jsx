@@ -35,14 +35,15 @@ function App() {
 
         <input type="radio" id="no" name="attending" value="NO" onChange={updateNotAttending}></input>
         <label htmlFor="no">No, i will not be attending</label>
-      </form> 
+      </form>
+
       <br></br>
+
       { showNotAttending && <NotAttendingForm />}
+
       <br></br>
 
       { showAttending && <AttendingForm /> }
-      
-
     </>
   )
 }
