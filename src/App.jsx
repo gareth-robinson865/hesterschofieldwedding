@@ -37,11 +37,7 @@ function App() {
         <label htmlFor="no">No, i will not be attending</label>
       </form>
 
-      <br></br>
-
       { showNotAttending && <NotAttendingForm />}
-
-      <br></br>
 
       { showAttending && <AttendingForm /> }
     </>
