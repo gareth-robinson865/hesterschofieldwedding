@@ -36,7 +36,7 @@ function App() {
   return (
     <>
       <Title />
-      
+      <Welcome />
       <p>Welcome message</p>
       <p>Name input</p> 
       <form id="generic">
