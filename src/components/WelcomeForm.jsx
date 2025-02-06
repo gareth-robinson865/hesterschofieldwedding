@@ -1,22 +1,6 @@
-import { useState } from 'react';
+/* eslint-disable react/prop-types */
+export default function WelcomeForm({updateAttending, updateNotAttending}) {
 
-export default function WelcomeForm() {
-    const [showAttending, setShowAttending] = useState(false)
-    const [showNotAttending, setShowNotAttending] = useState(false)
-    
-    function updateAttending() {
-        setShowAttending(true);
-        setShowNotAttending(false);
-    }
-    
-    function updateNotAttending() {
-        setShowAttending(false);
-        setShowNotAttending(true)
-    }
-    
-    console.log(showAttending)
-    console.log(showNotAttending)
-    
     return (
         <form id="generic">
             <label htmlFor="name">Who is responding</label> <br></br>
