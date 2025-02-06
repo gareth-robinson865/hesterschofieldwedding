@@ -20,11 +20,6 @@ function App() {
     setShowNotAttending(true)
   }
 
-  console.log(showAttending)
-  console.log(showNotAttending)
-
-  
-
   return (
     <>
       <Title />
