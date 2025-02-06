@@ -24,11 +24,15 @@ function App() {
     <>
       <Title />
       <WelcomeMessage />
-      <WelcomeForm updateAttending={updateAttending} updateNotAttending={updateNotAttending} />
-      
-      { showNotAttending && <NotAttendingForm />}
+      <form>
+        <WelcomeForm updateAttending={updateAttending} updateNotAttending={updateNotAttending} />
+        
+        { showNotAttending && <NotAttendingForm />}
 
-      { showAttending && <AttendingForm /> }
+        { showAttending && <AttendingForm /> }
+
+        <button type="submit">Submit</button>
+      </form>
     </>
   )
 }
