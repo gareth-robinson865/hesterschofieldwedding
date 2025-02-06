@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
 import './App.css'
+import Title from './components/title';
 
 function App() {
   const [showAttending, setShowAttending] = useState(false)
