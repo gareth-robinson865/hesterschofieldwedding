@@ -34,7 +34,7 @@ function App() {
 
   return (
     <>
-      
+      <Title />
       
       <p>Welcome message</p>
       <p>Name input</p> 
