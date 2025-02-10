@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css'
-import Title from './components/title';
+import Title from './components/Title';
 import WelcomeMessage from './components/welcomeMessage';
 import WelcomeForm from './components/WelcomeForm';
 import AttendingForm from './components/AttendingForm';
