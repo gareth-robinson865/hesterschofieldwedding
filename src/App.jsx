@@ -21,7 +21,7 @@ function App() {
   }
 
   return (
-    <div id="wrapper">
+    <>
       <Title />
       <WelcomeMessage />
       <form>
@@ -33,7 +33,7 @@ function App() {
 
         <button type="submit">Submit</button>
       </form>
-    </div>
+    </>
   )
 }
 
