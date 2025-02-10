@@ -1,5 +1,5 @@
 export default function Title() {
     return (
-        <h1>Hester and Schofield wedding</h1>
+        <h2>Hester and Schofield wedding</h2>
     )
 }
