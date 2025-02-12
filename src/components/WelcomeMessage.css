@@ -2,7 +2,7 @@
     background-color: green;
     display: flex;
     height: 100%;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     grid-row: 2;
     padding: 0;
