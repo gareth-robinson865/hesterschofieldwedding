@@ -8,7 +8,7 @@ export default function WelcomeForm({updateAttending, updateNotAttending}) {
             <p>Will you be attending?</p>
             <input type="radio" id="yes" name="attending" value="YES" onChange={updateAttending}></input>
             <label htmlFor="yes">Yes, i will be attending</label>
-        
+            <br></br>
             <input type="radio" id="no" name="attending" value="NO" onChange={updateNotAttending}></input>
             <label htmlFor="no">No, i will not be attending</label>
         </form> 
