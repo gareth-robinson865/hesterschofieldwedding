@@ -2,6 +2,6 @@ import './Title.css'
 
 export default function Title() {
     return (
-        <h2 id="title">Hester-Schofield wedding</h2>
+        <h1 id="title">Join us on our Special Day</h1>
     )
 }

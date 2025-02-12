@@ -1,5 +1,5 @@
 export default function WelcomeMessage() {
     return (
-        <p>insert welcome message</p>
+        <h4>Hester-Schofield Wedding</h4>
     )
 }
