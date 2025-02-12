@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+import './WelcomeForm.css'
+
 export default function WelcomeForm({updateAttending, updateNotAttending}) {
 
     return (
