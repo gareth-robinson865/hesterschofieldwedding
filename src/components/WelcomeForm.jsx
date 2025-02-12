@@ -2,7 +2,7 @@
 export default function WelcomeForm({updateAttending, updateNotAttending}) {
 
     return (
-        <form id="generic">       
+        <form id="welcomeForm">       
             <p>Will you be attending?</p>
             <input type="radio" id="yes" name="attending" value="YES" onChange={updateAttending}></input>
             <label htmlFor="yes">Yes, i will be attending</label>
