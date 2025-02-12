@@ -1,0 +1,9 @@
+#title {
+    display: flex;
+    height: 100%;
+    align-items: start;
+    justify-content: center;
+    grid-row: 3;
+    padding: 0;
+    margin: 0;
+}
