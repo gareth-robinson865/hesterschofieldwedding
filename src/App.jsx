@@ -31,7 +31,6 @@ function App() {
 
         { showAttending && <AttendingForm /> }
 
-        <button type="submit">Submit</button>
       </form>
     </>
   )
