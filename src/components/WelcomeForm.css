@@ -1,4 +1,8 @@
 #welcomeForm {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     grid-row: 3;
     padding: 0;
