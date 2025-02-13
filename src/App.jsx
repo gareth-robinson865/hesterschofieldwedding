@@ -26,13 +26,13 @@ function App() {
       <WelcomeMessage />
       <WelcomeForm updateAttending={updateAttending} updateNotAttending={updateNotAttending} />
         
-      <form id="form">
+      <div id="form">
        
         { showNotAttending && <NotAttendingForm />}
 
         { showAttending && <AttendingForm /> }
 
-      </form>
+      </div>
     </>
   )
 }
