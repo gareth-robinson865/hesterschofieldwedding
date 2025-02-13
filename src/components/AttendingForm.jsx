@@ -1,4 +1,4 @@
-import '../AttendingForm.css';
+import './AttendingForm.css';
 
 export default function AttendingForm() {
       const starter1 = 'Baked Goats Cheese Crottin';

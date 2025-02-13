@@ -4,7 +4,7 @@ import Title from './components/Title';
 import WelcomeMessage from './components/welcomeMessage';
 import WelcomeForm from './components/WelcomeForm';
 import AttendingForm from './components/AttendingForm';
-import NotAttendingForm from './NotAttendingForm';
+import NotAttendingForm from './components/NotAttendingForm';
 
 function App() {
   const [showAttending, setShowAttending] = useState(false)
