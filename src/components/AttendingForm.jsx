@@ -49,8 +49,9 @@ export default function AttendingForm() {
               <br></br>
             </div>
             <div id="info">
-              <label htmlFor="name">Who is responding</label> <br></br>
+              <label htmlFor="name">Who is responding</label>
               <input type="text" id="name" name="name"  required></input><br></br>
+              <br></br>
               <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
               <input type="text" id="dietary" name="dietary"></input>
               <br></br>
