@@ -1,5 +1,7 @@
+import '../AttendingForm.css';
+
 export default function AttendingForm() {
-    const starter1 = 'Baked Goats Cheese Crottin';
+      const starter1 = 'Baked Goats Cheese Crottin';
       const starter2 = 'Thai Spiced Fish Cakes';
       const starter3 = 'Warm Asparagus and Tomato Tart (Vegan)';
     
