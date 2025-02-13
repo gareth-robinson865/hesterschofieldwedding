@@ -23,8 +23,12 @@ export default function AttendingForm() {
       const [song, setSong] = useState('');
       const [drink, setDrink] = useState('');
 
+      const handleSubmit= () => {
+        console.log(starter, main, dessert, name, dietary, money, song, drink)
+      }
+
     return(
-        <form id="attending">
+        <form id="attending" onSubmit={handleSubmit}>
             
             <div id="food">
               <h3>Food Choice</h3>
