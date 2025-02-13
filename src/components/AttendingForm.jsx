@@ -49,7 +49,7 @@ export default function AttendingForm() {
               <input type="radio" id="dessert3" name="desserts" value="vegan"></input> <br></br>
               <br></br>
             </div>
-            <div>
+            <div id="info">
               <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
               <input type="text" id="dietary" name="dietary"></input>
               <br></br>
