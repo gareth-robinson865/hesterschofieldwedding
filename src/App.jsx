@@ -26,7 +26,7 @@ function App() {
       <WelcomeMessage />
       <WelcomeForm updateAttending={updateAttending} updateNotAttending={updateNotAttending} />
         
-      <form>
+      <form id="form">
        
         { showNotAttending && <NotAttendingForm />}
 
