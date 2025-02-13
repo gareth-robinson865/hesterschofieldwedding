@@ -13,7 +13,6 @@ body {
 
 #root {
   width: 100%;
-  
   text-align: center;
   display: grid;
   grid-template-rows: 0.5fr 0.5fr 1fr 6fr;
