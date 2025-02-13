@@ -73,7 +73,7 @@ export default function AttendingForm() {
               <br></br>
               <br></br>
               <label htmlFor="favSong">Let us know your favourite song</label>
-              <input type="text" id="favSong" name="favSong"></input>
+              <input type="text" id="favSong" name="favSong" onChange={(e) => setSong(e.target.value)}></input>
               <br></br>
               <br></br>
               <label htmlFor="favDrink">Let us know your favourite drink</label>
