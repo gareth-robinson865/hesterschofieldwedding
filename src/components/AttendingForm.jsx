@@ -65,11 +65,11 @@ export default function AttendingForm() {
               <input type="text" id="name" name="name"  required onChange={(e) => setName(e.target.value)}></input><br></br>
               <br></br>
               <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
-              <input type="text" id="dietary" name="dietary"></input>
+              <input type="text" id="dietary" name="dietary" onChange={(e) => setDietary(e.target.value)}></input>
               <br></br>
               <br></br>
               <label htmlFor="moneySent">Have you sent the money over for the bar?</label>
-              <input type="checkbox" id="moneySent" name="moneySent"></input>
+              <input type="checkbox" id="moneySent" name="moneySent" onChange={(e) => setMoney(e.target.value)}></input>
               <br></br>
               <br></br>
               <label htmlFor="favSong">Let us know your favourite song</label>
