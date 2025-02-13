@@ -23,7 +23,8 @@ export default function AttendingForm() {
       const [song, setSong] = useState('');
       const [drink, setDrink] = useState('');
 
-      const handleSubmit= () => {
+      const handleSubmit= (e) => {
+        e.preventDefault()
         console.log(starter, main, dessert, name, dietary, money, song, drink)
       }
 
