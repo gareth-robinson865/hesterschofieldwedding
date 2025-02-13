@@ -14,8 +14,7 @@ export default function AttendingForm() {
       const dessert3 = 'Bowl of Fruit (Vegan)';
     return(
         <form id="attending">
-            <label htmlFor="name">Who is responding</label> <br></br>
-            <input type="text" id="name" name="name"  required></input><br></br>
+            
             <div id="food">
               <h3>Food Choice</h3>
               <h4>Starters</h4>
@@ -50,6 +49,8 @@ export default function AttendingForm() {
               <br></br>
             </div>
             <div id="info">
+              <label htmlFor="name">Who is responding</label> <br></br>
+              <input type="text" id="name" name="name"  required></input><br></br>
               <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
               <input type="text" id="dietary" name="dietary"></input>
               <br></br>
