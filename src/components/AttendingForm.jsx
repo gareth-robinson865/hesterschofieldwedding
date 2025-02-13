@@ -1,4 +1,5 @@
 import './AttendingForm.css';
+import { useState } from 'react';
 
 export default function AttendingForm() {
       const starter1 = 'Baked Goats Cheese Crottin';
@@ -12,6 +13,16 @@ export default function AttendingForm() {
       const dessert1 = 'Sticky Toffee Pudding';
       const dessert2 = 'Chocolate Brownie';
       const dessert3 = 'Bowl of Fruit (Vegan)';
+
+      const [starter, setStarter] = useState('');
+      const [main, setMain] = useState('');
+      const [dessert, setDessert] = useState('');
+      const [name, setName] = useState('');
+      const [dietary, setDietary] = useState('');
+      const [money, setMoney] = useState('');
+      const [song, setSong] = useState('');
+      const [drink, setDrink] = useState('');
+
     return(
         <form id="attending">
             
