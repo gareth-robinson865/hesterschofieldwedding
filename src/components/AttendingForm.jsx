@@ -30,39 +30,39 @@ export default function AttendingForm() {
               <h3>Food Choice</h3>
               <h4>Starters</h4>
               <label htmlFor="starter1">{starter1}</label>
-              <input type="radio" id="starter1" name="starters" value="cheese"></input> <br></br>
+              <input type="radio" id="starter1" name="starters" value="cheese" onChange={(e) => setStarter(e.target.value)}></input> <br></br>
 
               <label htmlFor="starter2">{starter2}</label>
-              <input type="radio" id="starter2" name="starters" value="fishcakes"></input> <br></br>
+              <input type="radio" id="starter2" name="starters" value="fishcakes" onChange={(e) => setStarter(e.target.value)}></input> <br></br>
 
               <label htmlFor="starter3">{starter3}</label>
-              <input type="radio" id="starter3" name="starters" value="tart"></input> <br></br>
+              <input type="radio" id="starter3" name="starters" value="tart" onChange={(e) => setStarter(e.target.value)}></input> <br></br>
 
               <h4>Mains</h4>
               <label htmlFor="main1">{main1}</label>
-              <input type="radio" id="main1" name="mains" value="beef"></input> <br></br>
+              <input type="radio" id="main1" name="mains" value="beef" onChange={(e) => setMain(e.target.value)}></input> <br></br>
 
               <label htmlFor="main2">{main2}</label>
-              <input type="radio" id="main2" name="mains" value="salmon"></input> <br></br>
+              <input type="radio" id="main2" name="mains" value="salmon" onChange={(e) => setMain(e.target.value)}></input> <br></br>
 
               <label htmlFor="main3">{main3}</label>
-              <input type="radio" id="main3" name="mains" value="squash"></input> <br></br>
+              <input type="radio" id="main3" name="mains" value="squash" onChange={(e) => setMain(e.target.value)}></input> <br></br>
 
               <h4>Desserts</h4>
               <label htmlFor="dessert1">{dessert1}</label>
-              <input type="radio" id="dessert1" name="desserts" value="toffee"></input> <br></br>
+              <input type="radio" id="dessert1" name="desserts" value="toffee" onChange={(e) => setDessert(e.target.value)}></input> <br></br>
 
               <label htmlFor="dessert2">{dessert2}</label>
-              <input type="radio" id="dessert2" name="desserts" value="brownie"></input> <br></br>
+              <input type="radio" id="dessert2" name="desserts" value="brownie" onChange={(e) => setDessert(e.target.value)}></input> <br></br>
 
               <label htmlFor="dessert3">{dessert3}</label>
-              <input type="radio" id="dessert3" name="desserts" value="vegan"></input> <br></br>
+              <input type="radio" id="dessert3" name="desserts" value="vegan" onChange={(e) => setDessert(e.target.value)}></input> <br></br>
               <br></br>
             </div>
             <div id="info">
               <h4>Your info</h4>
               <label htmlFor="name">Who is responding</label>
-              <input type="text" id="name" name="name"  required></input><br></br>
+              <input type="text" id="name" name="name"  required onChange={(e) => setName(e.target.value)}></input><br></br>
               <br></br>
               <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
               <input type="text" id="dietary" name="dietary"></input>
