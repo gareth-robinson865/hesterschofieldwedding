@@ -27,6 +27,7 @@ export default function NotAttendingForm() {
             <br></br>
             <textarea 
                 id="message" 
+                name="message"
                 rows="4" 
                 cols="50" 
                 placeholder="type message here..." 
