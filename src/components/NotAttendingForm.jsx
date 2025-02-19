@@ -4,9 +4,14 @@ export default function NotAttendingForm() {
 
     const [name, setName] = useState('')
     const [message, setMessage] = useState('')
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        console.log(name, message)
+    }
     
     return(
-        <form id="notAttending">
+        <form id="notAttending" onSubmit={handleSubmit}>
             <br></br>
             <label htmlFor="message">Sorry you cannot make it, feel free to send us a message</label><br></br>
             <br></br>
