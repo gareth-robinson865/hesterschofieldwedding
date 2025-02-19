@@ -15,6 +15,7 @@ export default function NotAttendingForm() {
             <textarea id="message" rows="4" cols="50" placeholder="type message here..."></textarea>
             <br></br>
             <br></br>
+            <button type="submit">Let us know</button>
         </form>
     )
 }
