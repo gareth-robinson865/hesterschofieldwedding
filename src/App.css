@@ -8,13 +8,6 @@ body {
   
 }
 
-#root {
-  width: 100%;
-  text-align: center;
-  display: grid;
-  grid-template-rows: 0.5fr 0.5fr 1fr 6fr;
-}
-
 #outer {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -25,7 +18,9 @@ body {
 }
 
 #content {
-  width:50%;
+  background: red;
+  width:100%;
+
 }
 
 #form {
@@ -33,7 +28,6 @@ body {
     height: 100%;
     align-items: start;
     justify-content: center;
-    grid-row: 4;
     padding: 0;
     margin: 0;
 }
