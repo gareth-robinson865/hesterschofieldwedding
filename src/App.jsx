@@ -24,7 +24,7 @@ function App() {
   return (
     <div id="outer">
       <div id="picture">
-        <img src={Image}></img>
+        <img src={Image} id="image"></img>
       </div>
       <div id="content">
         <Title />
