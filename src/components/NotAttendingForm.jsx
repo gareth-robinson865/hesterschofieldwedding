@@ -13,6 +13,7 @@ export default function NotAttendingForm() {
     return(
         <form id="notAttending" onSubmit={handleSubmit}>
             <br></br>
+            <h4>Sorry to hear you are unable to join us</h4>
             <br></br>
             <br></br>
             <label htmlFor="name">Who is responding</label> 
