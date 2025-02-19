@@ -10,12 +10,14 @@ body {
 
 #outer {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 40% 60%;
 }
 
 #picture {
-  width:50%;
+  width:100%;
 }
+
+
 
 #content {
   background: red;
@@ -25,7 +27,6 @@ body {
 
 #form {
   display: flex;
-    height: 100%;
     align-items: start;
     justify-content: center;
     padding: 0;
