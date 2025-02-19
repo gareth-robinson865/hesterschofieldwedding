@@ -1,6 +1,6 @@
 #title {
+    background: green;
     display: flex;
-    height: 100%;
     align-items: start;
     justify-content: center;
     padding: 0;
