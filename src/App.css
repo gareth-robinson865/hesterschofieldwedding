@@ -3,10 +3,7 @@ body {
   height: 100%;
   margin: 0 auto;
   text-align: center;
-  background-image:url('./images/istockphoto-1213709867-1024x1024.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
+  color: black;
   font-family: "Dancing Script", serif;
   
 }
@@ -16,6 +13,19 @@ body {
   text-align: center;
   display: grid;
   grid-template-rows: 0.5fr 0.5fr 1fr 6fr;
+}
+
+#outer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#picture {
+  width:50%;
+}
+
+#content {
+  width:50%;
 }
 
 #form {
