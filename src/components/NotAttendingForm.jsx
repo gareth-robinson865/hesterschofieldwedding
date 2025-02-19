@@ -10,7 +10,7 @@ export default function NotAttendingForm() {
             <br></br>
             <label htmlFor="message">Sorry you cannot make it, feel free to send us a message</label><br></br>
             <br></br>
-            <label htmlFor="name" onChange={(e) => setName(e.target.value)} required>Who is responding</label> <br></br>
+            <label htmlFor="name" onChange={(e) => setName(e.target.value)}>Who is responding</label> <br></br>
             <input type="text" id="name" name="name"  required></input><br></br>
             <textarea id="message" rows="4" cols="50" placeholder="type message here..."></textarea>
             <br></br>
