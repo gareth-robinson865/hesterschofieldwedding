@@ -13,7 +13,7 @@ export default function NotAttendingForm() {
     return(
         <form id="notAttending" onSubmit={handleSubmit}>
             <br></br>
-            <label htmlFor="message">Sorry you cannot make it, feel free to send us a message</label><br></br>
+            <br></br>
             <br></br>
             <label htmlFor="name">Who is responding</label> 
             <br></br>
@@ -24,6 +24,8 @@ export default function NotAttendingForm() {
                 onChange={(e) => setName(e.target.value)} 
                 required>
             </input>
+            <br></br>
+            <label htmlFor="message">Feel free to send us a message</label>
             <br></br>
             <textarea 
                 id="message" 
