@@ -5,6 +5,7 @@ import WelcomeMessage from './components/welcomeMessage';
 import WelcomeForm from './components/WelcomeForm';
 import AttendingForm from './components/AttendingForm';
 import NotAttendingForm from './components/NotAttendingForm';
+import Image from './images/istockphoto-1213709867-1024x1024.jpg';
 
 function App() {
   const [showAttending, setShowAttending] = useState(false)
@@ -21,19 +22,23 @@ function App() {
   }
 
   return (
-    <>
-      <Title />
-      <WelcomeMessage />
-      <WelcomeForm updateAttending={updateAttending} updateNotAttending={updateNotAttending} />
-        
-      <div id="form">
-       
-        { showNotAttending && <NotAttendingForm />}
-
-        { showAttending && <AttendingForm /> }
-
+    <div id="outer">
+      <div id="picture">
+        <img src={Image}></img>
       </div>
-    </>
+      <div id="content">
+        <Title />
+        <WelcomeMessage />
+        <WelcomeForm updateAttending={updateAttending} updateNotAttending={updateNotAttending} />
+          
+        <div id="form">
+        
+          { showNotAttending && <NotAttendingForm />}
+
+          { showAttending && <AttendingForm /> }
+        </div>
+      </div>
+    </div>
   )
 }
 
