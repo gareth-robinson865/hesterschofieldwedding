@@ -4,6 +4,7 @@ export default function NotAttendingForm() {
 
     const [name, setName] = useState('')
     const [message, setMessage] = useState('')
+    
     return(
         <form id="notAttending">
             <br></br>
