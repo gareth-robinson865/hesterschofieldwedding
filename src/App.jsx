@@ -5,7 +5,7 @@ import WelcomeMessage from './components/welcomeMessage';
 import WelcomeForm from './components/WelcomeForm';
 import AttendingForm from './components/AttendingForm';
 import NotAttendingForm from './components/NotAttendingForm';
-import Image from './images/istockphoto-1213709867-1024x1024.jpg';
+import Image from './images/Image1.jpg';
 
 function App() {
   const [showAttending, setShowAttending] = useState(false)
