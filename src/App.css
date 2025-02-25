@@ -22,13 +22,16 @@ body {
 #content {
   background: red;
   width:100%;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #form {
   display: flex;
-    align-items: start;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
+  align-items: start;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
