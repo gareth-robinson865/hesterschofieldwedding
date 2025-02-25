@@ -30,6 +30,7 @@ html, body {
   flex-direction: column;
   grid-column: 2 /3;
   height:100%;
+  border: 2px solid black;
 }
 
 #form {
