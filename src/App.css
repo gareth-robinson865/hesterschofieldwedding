@@ -16,23 +16,22 @@ html, body {
 }
 #picture {
   background-image: url('./images/Image1.jpg');
-  
+  border-radius: 50%;
   width:100%;
   height: 100%;
   grid-column: 1 / 2;
 }
 
 #content {
-  background: red;
-  width:97%;
+  width:100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   grid-column: 2 /3;
   height:100%;
-  border: 2px solid black;
-  margin: 10px;
+  border: 5px solid #006A4E;
+  border-radius: 8%;
 }
 
 #form {
