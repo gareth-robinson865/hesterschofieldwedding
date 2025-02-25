@@ -6,18 +6,20 @@ body {
   color: black;
   font-family: "Dancing Script", serif;
   
-}
 
-#outer {
+#root {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  height: 100%;
 }
-
+}
 #picture {
+  background-image: url('./images/Image1.jpg');
   width:100%;
+  height: 100%;
+  grid-column: 1 / 2;
 }
-
-
 
 #content {
   background: red;
@@ -26,6 +28,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  grid-column: 2 /3;
+  height:100%;
 }
 
 #form {

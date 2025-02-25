@@ -5,7 +5,6 @@ import WelcomeMessage from './components/welcomeMessage';
 import WelcomeForm from './components/WelcomeForm';
 import AttendingForm from './components/AttendingForm';
 import NotAttendingForm from './components/NotAttendingForm';
-import Image from './images/Image1.jpg';
 
 function App() {
   const [showAttending, setShowAttending] = useState(false)
@@ -22,9 +21,8 @@ function App() {
   }
 
   return (
-    <div id="outer">
+    <>
       <div id="picture">
-        <img src={Image} id="image"></img>
       </div>
       <div id="content">
         <Title />
@@ -38,7 +36,7 @@ function App() {
           { showAttending && <AttendingForm /> }
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
