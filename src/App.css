@@ -31,7 +31,7 @@ html, body {
   flex-direction: column;
   grid-column: 2 /3;
   height:94%;
-  border: 5px solid #087c15;
+  border: 3px solid #087c15;
   border-radius: 8%;
   margin: 15px;
 }
