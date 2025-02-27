@@ -1,10 +1,9 @@
 import './AttendingForm.css';
 import { useState } from 'react';
+import Starters from './Starters';
 
 export default function AttendingForm() {
-      const starter1 = 'Baked Goats Cheese Crottin';
-      const starter2 = 'Thai Spiced Fish Cakes';
-      const starter3 = 'Warm Asparagus and Tomato Tart (Vegan)';
+      
     
       const main1 = 'Fillet of Yorkshire Beef en Croute';
       const main2 = 'Fillet of Salmon en Croute';
@@ -14,7 +13,7 @@ export default function AttendingForm() {
       const dessert2 = 'Chocolate Brownie';
       const dessert3 = 'Bowl of Fruit (Vegan)';
 
-      const [starter, setStarter] = useState('');
+      
       const [main, setMain] = useState('');
       const [dessert, setDessert] = useState('');
       const [name, setName] = useState('');
@@ -25,7 +24,7 @@ export default function AttendingForm() {
 
       const handleSubmit= (e) => {
         e.preventDefault()
-        console.log(starter, main, dessert, name, dietary, money, song, drink)
+        console.log(main, dessert, name, dietary, money, song, drink)
       }
 
     return(
@@ -33,17 +32,9 @@ export default function AttendingForm() {
             
             <div id="food">
               <h3>Food Choice</h3>
-              <h4>Starters</h4>
-              <label htmlFor="starter1">{starter1}</label>
-              <input type="radio" id="starter1" name="starters" value="cheese" onChange={(e) => setStarter(e.target.value)}></input> <br></br>
-
-              <label htmlFor="starter2">{starter2}</label>
-              <input type="radio" id="starter2" name="starters" value="fishcakes" onChange={(e) => setStarter(e.target.value)}></input> <br></br>
-
-              <label htmlFor="starter3">{starter3}</label>
-              <input type="radio" id="starter3" name="starters" value="tart" onChange={(e) => setStarter(e.target.value)}></input> <br></br>
-
+              
               <h4>Mains</h4>
+              <Starters />
               <label htmlFor="main1">{main1}</label>
               <input type="radio" id="main1" name="mains" value="beef" onChange={(e) => setMain(e.target.value)}></input> <br></br>
 
