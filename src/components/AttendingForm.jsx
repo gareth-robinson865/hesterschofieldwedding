@@ -32,7 +32,7 @@ export default function AttendingForm() {
             <div id="food">
               <h3>Food Choice</h3>
               
-              <h4>Mains</h4>
+              
               <Starters />
               <label htmlFor="main1">{main1}</label>
               <input type="radio" id="main1" name="mains" value="beef" onChange={(e) => setMain(e.target.value)}></input> <br></br>
