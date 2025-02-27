@@ -3,12 +3,7 @@ import { useState } from 'react';
 import Starters from './Starters';
 import Mains from './Mains';
 
-export default function AttendingForm() {
-      
-    
-      
-      const main3 = 'Butternut Squash and Lentil en Croute (Vegan)';
-    
+export default function AttendingForm() {  
       const dessert1 = 'Sticky Toffee Pudding';
       const dessert2 = 'Chocolate Brownie';
       const dessert3 = 'Bowl of Fruit (Vegan)';
