@@ -1,6 +1,7 @@
 import './AttendingForm.css';
 import { useState } from 'react';
 import Starters from './Starters';
+import Mains from './Mains';
 
 export default function AttendingForm() {
       
@@ -34,15 +35,7 @@ export default function AttendingForm() {
               
               
               <Starters />
-              <label htmlFor="main1">{main1}</label>
-              <input type="radio" id="main1" name="mains" value="beef" onChange={(e) => setMain(e.target.value)}></input> <br></br>
-
-              <label htmlFor="main2">{main2}</label>
-              <input type="radio" id="main2" name="mains" value="salmon" onChange={(e) => setMain(e.target.value)}></input> <br></br>
-
-              <label htmlFor="main3">{main3}</label>
-              <input type="radio" id="main3" name="mains" value="squash" onChange={(e) => setMain(e.target.value)}></input> <br></br>
-
+              <Mains />
               <h4>Desserts</h4>
               <label htmlFor="dessert1">{dessert1}</label>
               <input type="radio" id="dessert1" name="desserts" value="toffee" onChange={(e) => setDessert(e.target.value)}></input> <br></br>
