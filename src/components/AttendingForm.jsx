@@ -4,13 +4,6 @@ import Starters from './Starters';
 import Mains from './Mains';
 
 export default function AttendingForm() {  
-      const dessert1 = 'Sticky Toffee Pudding';
-      const dessert2 = 'Chocolate Brownie';
-      const dessert3 = 'Bowl of Fruit (Vegan)';
-
-      
-      
-      const [dessert, setDessert] = useState('');
       const [name, setName] = useState('');
       const [dietary, setDietary] = useState('');
       const [money, setMoney] = useState('');
