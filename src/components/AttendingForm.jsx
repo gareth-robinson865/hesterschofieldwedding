@@ -5,8 +5,7 @@ import Starters from './Starters';
 export default function AttendingForm() {
       
     
-      const main1 = 'Fillet of Yorkshire Beef en Croute';
-      const main2 = 'Fillet of Salmon en Croute';
+      
       const main3 = 'Butternut Squash and Lentil en Croute (Vegan)';
     
       const dessert1 = 'Sticky Toffee Pudding';
@@ -14,7 +13,7 @@ export default function AttendingForm() {
       const dessert3 = 'Bowl of Fruit (Vegan)';
 
       
-      const [main, setMain] = useState('');
+      
       const [dessert, setDessert] = useState('');
       const [name, setName] = useState('');
       const [dietary, setDietary] = useState('');
@@ -24,7 +23,7 @@ export default function AttendingForm() {
 
       const handleSubmit= (e) => {
         e.preventDefault()
-        console.log(main, dessert, name, dietary, money, song, drink)
+        console.log(dessert, name, dietary, money, song, drink)
       }
 
     return(
