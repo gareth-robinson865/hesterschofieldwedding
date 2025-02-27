@@ -1,7 +1,7 @@
 export default function Dietary() {
   return (
     <div>
-        Dietary
+        <p>Our delicious dessert for the day is Sticky Toffee Pudding</p>
     </div>
   )
 }
