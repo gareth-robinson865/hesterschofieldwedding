@@ -2,6 +2,7 @@ import './AttendingForm.css';
 import { useState } from 'react';
 import Starters from './Starters';
 import Mains from './Mains';
+import Dietary from './Dietary';
 
 export default function AttendingForm() {  
       const [name, setName] = useState('');
@@ -12,7 +13,7 @@ export default function AttendingForm() {
 
       const handleSubmit= (e) => {
         e.preventDefault()
-        console.log(dessert, name, dietary, money, song, drink)
+        console.log(name, dietary, money, song, drink)
       }
 
     return(
@@ -24,15 +25,7 @@ export default function AttendingForm() {
               
               <Starters />
               <Mains />
-              <h4>Desserts</h4>
-              <label htmlFor="dessert1">{dessert1}</label>
-              <input type="radio" id="dessert1" name="desserts" value="toffee" onChange={(e) => setDessert(e.target.value)}></input> <br></br>
-
-              <label htmlFor="dessert2">{dessert2}</label>
-              <input type="radio" id="dessert2" name="desserts" value="brownie" onChange={(e) => setDessert(e.target.value)}></input> <br></br>
-
-              <label htmlFor="dessert3">{dessert3}</label>
-              <input type="radio" id="dessert3" name="desserts" value="vegan" onChange={(e) => setDessert(e.target.value)}></input> <br></br>
+              <Dietary />
               <br></br>
             </div>
             <div id="info">
