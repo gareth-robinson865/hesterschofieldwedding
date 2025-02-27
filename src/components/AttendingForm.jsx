@@ -2,7 +2,7 @@ import './AttendingForm.css';
 import { useState } from 'react';
 import Starters from './Starters';
 import Mains from './Mains';
-import Dietary from './Dietary';
+import Dessert from './Dietary';
 
 export default function AttendingForm() {  
       const [name, setName] = useState('');
@@ -25,7 +25,7 @@ export default function AttendingForm() {
               
               <Starters />
               <Mains />
-              <Dietary />
+              <Dessert />
               <br></br>
             </div>
             <div id="info">
