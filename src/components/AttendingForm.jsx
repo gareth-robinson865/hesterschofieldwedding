@@ -5,7 +5,7 @@ import Mains from './Mains';
 import Dessert from './Dessert';
 
 export default function AttendingForm() {  
-      
+      const [starter, setStarter] = useSate(false)
       const [money, setMoney] = useState('');
       const [song, setSong] = useState('');
       const [drink, setDrink] = useState('');
