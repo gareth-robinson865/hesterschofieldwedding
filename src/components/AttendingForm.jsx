@@ -31,8 +31,8 @@ export default function AttendingForm() {
               <h3>Food Choice</h3>
               
               
-              <Starters />
-              <Mains />
+              <Starters updateStarter={updateStarter}/>
+              <Mains updateMain={updateMain}/>
               <Dessert />
               <br></br>
             </div>
