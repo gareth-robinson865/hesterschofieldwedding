@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-export default function Starters({setStarterChoice}) {
+export default function Starters({ setStarterChoice }) {
     const starter1 = 'Baked Goats Cheese Crottin';
     const starter2 = 'Thai Spiced Fish Cakes';
 
