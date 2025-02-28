@@ -4,6 +4,7 @@ import Starters from './Starters';
 import Mains from './Mains';
 import Dessert from './Dessert';
 import DietaryInfo from './DietaryInfo';
+import AdditionalInfo from './AdditionalInfo';
 
 export default function AttendingForm() {  ``
       const [starterChoice, setStarterChoice] = useState('')
@@ -25,18 +26,7 @@ export default function AttendingForm() {  ``
           { dietary && <Starters setStarterChoice={setStarterChoice}/> }
           { starterChoice && <Mains setMainChoice={setMainChoice}/> }
           { mainChoice && <Dessert /> }
-            
-            <div id="info">
-              <label htmlFor="moneySent">Have you sent the money over for the bar?</label>
-              <input type="checkbox" id="moneySent" name="moneySent" onChange={(e) => setMoney(e.target.value)}></input>
-              <br></br>
-              <label htmlFor="favSong">Let us know your favourite song</label>
-              <input type="text" id="favSong" name="favSong" onChange={(e) => setSong(e.target.value)}></input>
-              <br></br>
-              <label htmlFor="favDrink">Let us know your favourite drink</label>
-              <input type="text" id="favDrink" name="favDrink" onChange={(e) => setDrink(e.target.value)}></input>
-              <br></br>
-            </div>
+          { mainChoice && <AdditionalInfo />}
             <button type="submit">Let us know</button>
       </form>
     )
