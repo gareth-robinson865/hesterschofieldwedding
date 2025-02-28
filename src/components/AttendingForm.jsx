@@ -5,14 +5,23 @@ import Mains from './Mains';
 import Dessert from './Dessert';
 
 export default function AttendingForm() {  
-      const [starter, setStarter] = useSate(false)
+      const [starter, setStarter] = useState(false)
+      const [main, setMain] = useState(false)
       const [money, setMoney] = useState('');
       const [song, setSong] = useState('');
       const [drink, setDrink] = useState('');
 
+      function updateStarter() {
+        setStarter(true);
+      }
+
+      function updateMain() {
+        setMain(true);
+      }
+
       const handleSubmit= (e) => {
         e.preventDefault()
-        console.log(money, song, drink)
+        console.log(starter, main, money, song, drink)
       }
 
     return(
