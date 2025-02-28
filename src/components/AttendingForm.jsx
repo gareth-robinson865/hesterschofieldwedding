@@ -19,14 +19,12 @@ export default function AttendingForm() {  ``
 
     return(
         <form id="attending" onSubmit={handleSubmit}>
+          <h3>Food Choice</h3>
+          <Starters setStarterChoice={setStarterChoice}/>
+          <Mains setMainChoice={setMainChoice}/>
+          <Dessert />
+          <br></br>
             
-            <div id="food">
-              <h3>Food Choice</h3>
-              <Starters setStarterChoice={setStarterChoice}/>
-              <Mains setMainChoice={setMainChoice}/>
-              <Dessert />
-              <br></br>
-            </div>
             <div id="info">
               
               <br></br>
