@@ -6,15 +6,16 @@ import Dessert from './Dessert';
 
 export default function AttendingForm() {  ``
       const [starterChoice, setStarterChoice] = useState('')
-
       const [mainChoice, setMainChoice] = useState('')
+      const [name, setName] = useState('');
+      const [dietary, setDietary] = useState('');
       const [money, setMoney] = useState('');
       const [song, setSong] = useState('');
       const [drink, setDrink] = useState('');
 
       const handleSubmit= (e) => {
         e.preventDefault()
-        console.log(starterChoice, mainChoice, money, song, drink)
+        console.log(starterChoice, mainChoice, name, dietary,money, song, drink)
       }
 
     return(
