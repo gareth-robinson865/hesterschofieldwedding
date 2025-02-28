@@ -1,8 +1,6 @@
-import { useState } from "react";
-
-export default function DietaryInfo() {
-    const [name, setName] = useState('');
-    const [dietary, setDietary] = useState('');
+/* eslint-disable react/prop-types */
+export default function DietaryInfo({ setDietary, setName }) {
+    
   return (
     <div>
         <h4>Your info</h4>
