@@ -14,7 +14,8 @@ export default function Starters() {
             id="starter1" 
             name="starters" 
             value="cheese" 
-            onChange={(e) => setStarter(e.target.value)}></input> <br></br>
+            onChange={(e) => setStarter(e.target.value)}>
+        </input> <br></br>
 
         <label htmlFor="starter2">{starter2}</label>
         <input 
@@ -22,7 +23,8 @@ export default function Starters() {
             id="starter2" 
             name="starters" 
             value="fishcakes" 
-            onChange={(e) => setStarter(e.target.value)}></input> <br></br>
+            onChange={(e) => setStarter(e.target.value)}>
+        </input> <br></br>
     </div>
   )
 }
