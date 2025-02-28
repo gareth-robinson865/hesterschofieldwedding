@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 export default function DietaryInfo() {
+    const [name, setName] = useState('');
+    const [dietary, setDietary] = useState('');
   return (
     <div>
         <h4>Your info</h4>
