@@ -26,7 +26,7 @@ export default function AttendingForm() {  ``
           { dietary && <Starters setStarterChoice={setStarterChoice}/> }
           { starterChoice && <Mains setMainChoice={setMainChoice}/> }
           { mainChoice && <Dessert /> }
-          { mainChoice && <AdditionalInfo />}
+          { mainChoice && <AdditionalInfo setMoney={setMoney} setSong={setSong} setDrink={setDrink}/>}
             <button type="submit">Let us know</button>
       </form>
     )
