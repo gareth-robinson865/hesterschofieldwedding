@@ -5,15 +5,14 @@ import Mains from './Mains';
 import Dessert from './Dessert';
 
 export default function AttendingForm() {  
-      const [name, setName] = useState('');
-      const [dietary, setDietary] = useState('');
+      
       const [money, setMoney] = useState('');
       const [song, setSong] = useState('');
       const [drink, setDrink] = useState('');
 
       const handleSubmit= (e) => {
         e.preventDefault()
-        console.log(name, dietary, money, song, drink)
+        console.log(money, song, drink)
       }
 
     return(
@@ -29,12 +28,7 @@ export default function AttendingForm() {
               <br></br>
             </div>
             <div id="info">
-              <h4>Your info</h4>
-              <label htmlFor="name">Who is responding</label>
-              <input type="text" id="name" name="name"  required onChange={(e) => setName(e.target.value)}></input><br></br>
-              <br></br>
-              <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
-              <input type="text" id="dietary" name="dietary" onChange={(e) => setDietary(e.target.value)}></input>
+              
               <br></br>
               <br></br>
               <label htmlFor="moneySent">Have you sent the money over for the bar?</label>
