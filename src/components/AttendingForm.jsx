@@ -2,7 +2,7 @@ import './AttendingForm.css';
 import { useState } from 'react';
 import Starters from './Starters';
 import Mains from './Mains';
-import Dessert from './Dietary';
+import Dessert from './Dessert';
 
 export default function AttendingForm() {  
       const [name, setName] = useState('');
