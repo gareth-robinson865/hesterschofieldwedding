@@ -1,10 +1,7 @@
-import { useState } from "react";
-
-export default function Mains() {
+/* eslint-disable react/prop-types */
+export default function Mains({setMainChoice}) {
     const main1 = 'Fillet of Yorkshire Beef en Croute';
     const main2 = 'Fillet of Salmon en Croute';
-
-    const [main, setMain] = useState('');
 
     return (
     <div>
@@ -15,7 +12,7 @@ export default function Mains() {
             id="main1" 
             name="mains" 
             value="beef" 
-            onChange={(e) => setMain(e.target.value)}>
+            onChange={(e) => setMainChoice(e.target.value)}>
         </input> <br></br>
 
         <label htmlFor="main2">{main2}</label>
@@ -24,7 +21,7 @@ export default function Mains() {
             id="main2" 
             name="mains" 
             value="salmon" 
-            onChange={(e) => setMain(e.target.value)}>
+            onChange={(e) => setMainChoice(e.target.value)}>
         </input> <br></br>
     </div>
   )
