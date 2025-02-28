@@ -22,8 +22,6 @@ export default function AttendingForm() {  ``
             
             <div id="food">
               <h3>Food Choice</h3>
-              
-              
               <Starters setStarterChoice={setStarterChoice}/>
               <Mains setMainChoice={setMainChoice}/>
               <Dessert />
