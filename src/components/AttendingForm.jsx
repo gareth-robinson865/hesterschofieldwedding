@@ -6,7 +6,10 @@ import Dessert from './Dessert';
 
 export default function AttendingForm() {  
       const [starter, setStarter] = useState(false)
+      const [starterChoice, setStarterChoice] = useState('')
+
       const [main, setMain] = useState(false)
+      const [mainChoice, setMainChoice] = useState('')
       const [money, setMoney] = useState('');
       const [song, setSong] = useState('');
       const [drink, setDrink] = useState('');
