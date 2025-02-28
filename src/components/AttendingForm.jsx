@@ -4,27 +4,17 @@ import Starters from './Starters';
 import Mains from './Mains';
 import Dessert from './Dessert';
 
-export default function AttendingForm() {  
-      const [starter, setStarter] = useState(false)
+export default function AttendingForm() {  ``
       const [starterChoice, setStarterChoice] = useState('')
 
-      const [main, setMain] = useState(false)
       const [mainChoice, setMainChoice] = useState('')
       const [money, setMoney] = useState('');
       const [song, setSong] = useState('');
       const [drink, setDrink] = useState('');
 
-      function updateStarter() {
-        setStarter(true);
-      }
-
-      function updateMain() {
-        setMain(true);
-      }
-
       const handleSubmit= (e) => {
         e.preventDefault()
-        console.log(starter, main, money, song, drink)
+        console.log(starterChoice, mainChoice, money, song, drink)
       }
 
     return(
@@ -34,8 +24,8 @@ export default function AttendingForm() {
               <h3>Food Choice</h3>
               
               
-              <Starters updateStarter={updateStarter} setStarterChoice={setStarterChoice}/>
-              <Mains updateMain={updateMain} setMainChoice={setMainChoice}/>
+              <Starters setStarterChoice={setStarterChoice}/>
+              <Mains setMainChoice={setMainChoice}/>
               <Dessert />
               <br></br>
             </div>
