@@ -6,7 +6,8 @@ import Dessert from './Dessert';
 import DietaryInfo from './DietaryInfo';
 import AdditionalInfo from './AdditionalInfo';
 
-export default function AttendingForm() {  ``
+export default function AttendingForm() {
+      const [isVegan, setIsVegan] = useState(false)
       const [starterChoice, setStarterChoice] = useState('')
       const [mainChoice, setMainChoice] = useState('')
       const [name, setName] = useState('');
@@ -17,7 +18,7 @@ export default function AttendingForm() {  ``
 
       const handleSubmit= (e) => {
         e.preventDefault()
-        console.log(starterChoice, mainChoice, name, dietary,money, song, drink)
+        console.log(isVegan, starterChoice, mainChoice, name, dietary,money, song, drink)
       }
 
     return(
