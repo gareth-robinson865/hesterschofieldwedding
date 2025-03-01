@@ -23,10 +23,10 @@ export default function AttendingForm() {  ``
     return(
         <form id="attending" onSubmit={handleSubmit}>
           <DietaryInfo setDietary={setDietary} setName={setName}/>
-          { dietary && <Starters setStarterChoice={setStarterChoice}/> }
-          { starterChoice && <Mains setMainChoice={setMainChoice}/> }
-          { mainChoice && <Dessert /> }
-          { mainChoice && <AdditionalInfo setMoney={setMoney} setSong={setSong} setDrink={setDrink}/>}
+          <Starters setStarterChoice={setStarterChoice}/>
+          <Mains setMainChoice={setMainChoice}/>
+          <Dessert />
+          <AdditionalInfo setMoney={setMoney} setSong={setSong} setDrink={setDrink}/>
             <button type="submit">Let us know</button>
       </form>
     )
