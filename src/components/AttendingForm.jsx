@@ -23,7 +23,7 @@ export default function AttendingForm() {
 
     return(
         <form id="attending" onSubmit={handleSubmit}>
-          <DietaryInfo setDietary={setDietary} setName={setName}/>
+          <DietaryInfo setDietary={setDietary} setName={setName} setIsVegan={setIsVegan}/>
           <Starters setStarterChoice={setStarterChoice}/>
           <Mains setMainChoice={setMainChoice}/>
           <Dessert />
