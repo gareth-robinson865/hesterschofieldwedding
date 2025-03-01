@@ -7,7 +7,7 @@ import DietaryInfo from './DietaryInfo';
 import AdditionalInfo from './AdditionalInfo';
 
 export default function AttendingForm() {
-      const [isVegan, setIsVegan] = useState(false)
+      const [isVegan, setIsVegan] = useState(true)
       const [starterChoice, setStarterChoice] = useState('')
       const [mainChoice, setMainChoice] = useState('')
       const [name, setName] = useState('');
@@ -24,9 +24,11 @@ export default function AttendingForm() {
     return(
         <form id="attending" onSubmit={handleSubmit}>
           <DietaryInfo setDietary={setDietary} setName={setName} setIsVegan={setIsVegan}/>
-          <Starters setStarterChoice={setStarterChoice}/>
-          <Mains setMainChoice={setMainChoice}/>
-          <Dessert />
+          <div id="food">
+            <Starters setStarterChoice={setStarterChoice}/>
+            <Mains setMainChoice={setMainChoice}/>
+            <Dessert />
+          </div>
           <AdditionalInfo setMoney={setMoney} setSong={setSong} setDrink={setDrink}/>
           <button type="submit">Let us know</button>
       </form>
