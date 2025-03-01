@@ -27,7 +27,7 @@ export default function AttendingForm() {  ``
           <Mains setMainChoice={setMainChoice}/>
           <Dessert />
           <AdditionalInfo setMoney={setMoney} setSong={setSong} setDrink={setDrink}/>
-            <button type="submit">Let us know</button>
+          <button type="submit">Let us know</button>
       </form>
     )
 }
