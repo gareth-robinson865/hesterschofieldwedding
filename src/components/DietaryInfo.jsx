@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-export default function DietaryInfo({ setDietary, setName }) {
+export default function DietaryInfo({ setDietary, setName, setIsVegan}) {
     
   return (
     <div>
@@ -13,6 +13,14 @@ export default function DietaryInfo({ setDietary, setName }) {
         </input>
         <br></br>
         <br></br>
+        <label htmlFor="vegan">Are you vegan, vegetarian or have dietary requirements</label>
+        <input 
+            type="radio" 
+            id="vegan"
+            name="vegan" 
+            value="vegan" 
+            onChange={(e) => setIsVegan(e.target.value)}>
+        </input>
         <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
         <input 
             type="text" 
