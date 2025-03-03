@@ -31,7 +31,7 @@ export default function AttendingForm() {
     return(
         <form id="attending" onSubmit={handleSubmit}>
           
-          { foodSubmit && <form id="food" onSubmit={handleFoodSubmit}> 
+          <form id="food" onSubmit={handleFoodSubmit}> 
             <DietaryInfo 
               setDietary={setDietary} 
               setName={setName} 
@@ -46,7 +46,7 @@ export default function AttendingForm() {
             /> }
             { mainChoice && <Dessert /> }
             <button type="submit">Tell us your choice</button>
-          </form> }
+          </form>
 
           { foodSubmit && <form id="info">
             <AdditionalInfo 

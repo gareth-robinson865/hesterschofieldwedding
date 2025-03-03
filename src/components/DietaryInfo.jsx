@@ -11,8 +11,6 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan}) {
             name="name"  
             required onChange={(e) => setName(e.target.value)}>
         </input>
-        <br></br>
-        <br></br>
         <h4>Are you vegan, vegetarian or have dietary requirements</h4>
         <label htmlFor="vegan">Vegan</label>
         <input 
