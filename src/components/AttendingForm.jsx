@@ -26,6 +26,8 @@ export default function AttendingForm() {
       const handleSubmit= (e) => {
         e.preventDefault()
         console.log(name, money, song, drink)
+        setShowDayInfo(true)
+        setShowInfo(false)
       }
 
       const handleFoodSubmit = (e) => {
