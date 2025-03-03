@@ -28,6 +28,7 @@ export default function AttendingForm() {
         e.preventDefault()
         console.log(isNonVeg, isVegan, starterChoice, mainChoice, dietary, foodSubmit)
         setFoodSubmit(false)
+        setShowInfo(true)
       }
 
     return(
@@ -50,7 +51,7 @@ export default function AttendingForm() {
             <button type="submit">Tell us your choice</button>
           </form> }
 
-          { foodSubmit && <form id="info">
+          { showInfo && <form id="info">
             <AdditionalInfo 
               setMoney={setMoney} 
               setSong={setSong} 
