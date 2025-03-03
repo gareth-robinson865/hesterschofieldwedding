@@ -9,12 +9,15 @@ import AdditionalInfo from './AdditionalInfo';
 export default function AttendingForm() {
       const [showInfo, setShowInfo] = useState(false)
       const [foodSubmit, setFoodSubmit] = useState(true)
+
       const [isNonVeg, setNonVeg] = useState(false)
       const [isVegan, setIsVegan] = useState()
+
       const [starterChoice, setStarterChoice] = useState('')
       const [mainChoice, setMainChoice] = useState('')
       const [name, setName] = useState('');
       const [dietary, setDietary] = useState('');
+      
       const [money, setMoney] = useState('');
       const [song, setSong] = useState('');
       const [drink, setDrink] = useState('');
