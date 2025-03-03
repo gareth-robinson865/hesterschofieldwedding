@@ -7,7 +7,7 @@ import DietaryInfo from './DietaryInfo';
 import AdditionalInfo from './AdditionalInfo';
 
 export default function AttendingForm() {
-      
+      const [showInfo, setShowInfo] = useState(false)
       const [foodSubmit, setFoodSubmit] = useState(true)
       const [isNonVeg, setNonVeg] = useState(false)
       const [isVegan, setIsVegan] = useState()
