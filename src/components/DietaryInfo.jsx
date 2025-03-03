@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-export default function DietaryInfo({ setDietary, setName, setIsVegan}) {
+export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg}) {
     
   return (
     <div>
@@ -34,7 +34,7 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan}) {
             id="normal"
             name="diet" 
             value="normal" 
-            onChange={(e) => setIsVegan(e.target.value)}>
+            onChange={(e) => setNonVeg(e.target.value)}>
         </input>
         <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
         <input 
