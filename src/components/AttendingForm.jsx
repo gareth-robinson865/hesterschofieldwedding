@@ -21,14 +21,20 @@ export default function AttendingForm() {
         console.log(isVegan, starterChoice, mainChoice, name, dietary,money, song, drink)
       }
 
+      const handleFoodSubmit = (e) => {
+        e.preventDefault()
+        
+      }
+
     return(
         <form id="attending" onSubmit={handleSubmit}>
-          <DietaryInfo setDietary={setDietary} setName={setName} setIsVegan={setIsVegan}/>
-          <div id="food">
+          
+          <form id="food" onSubmit={handleFoodSubmit}>
+            <DietaryInfo setDietary={setDietary} setName={setName} setIsVegan={setIsVegan}/>
             <Starters setStarterChoice={setStarterChoice}/>
             <Mains setMainChoice={setMainChoice}/>
             <Dessert />
-          </div>
+          </form>
           <AdditionalInfo setMoney={setMoney} setSong={setSong} setDrink={setDrink}/>
           <button type="submit">Let us know</button>
       </form>
