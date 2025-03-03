@@ -14,11 +14,13 @@ function App() {
   function updateAttending() {
     setShowAttending(true);
     setShowNotAttending(false);
+    setShowMenu(false)
   }
 
   function updateNotAttending() {
     setShowAttending(false);
-    setShowNotAttending(true)
+    setShowNotAttending(true);
+    setShowMenu(false);
   }
 
   return (
