@@ -25,7 +25,7 @@ export default function AttendingForm() {
 
       const handleFoodSubmit = (e) => {
         e.preventDefault()
-
+        setFoodSubmit(true)
       }
 
     return(
@@ -47,14 +47,14 @@ export default function AttendingForm() {
             { mainChoice && <Dessert /> }
           </form> }
 
-          <form id="info">
+          { foodSubmit && <form id="info">
             <AdditionalInfo 
               setMoney={setMoney} 
               setSong={setSong} 
               setDrink={setDrink}
             />
             <button type="submit">Let us know</button>
-          </form>
+          </form> }
       </form>
     )
 }
