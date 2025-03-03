@@ -25,7 +25,7 @@ export default function AttendingForm() {
 
       const handleFoodSubmit = (e) => {
         e.preventDefault()
-        console.log(isNonVeg, isVegan, starterChoice, mainChoice, dietary)
+        console.log(isNonVeg, isVegan, starterChoice, mainChoice, dietary, foodSubmit)
         setFoodSubmit(true)
       }
 
