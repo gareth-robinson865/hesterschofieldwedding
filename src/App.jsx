@@ -9,6 +9,7 @@ import NotAttendingForm from './components/NotAttendingForm';
 function App() {
   const [showAttending, setShowAttending] = useState(false)
   const [showNotAttending, setShowNotAttending] = useState(false)
+  const [showMenu, setShowMenu] = useState(true)
 
   function updateAttending() {
     setShowAttending(true);
