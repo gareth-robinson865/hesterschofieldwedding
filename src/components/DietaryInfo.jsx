@@ -16,7 +16,7 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan}) {
         <input 
             type="radio" 
             id="vegan"
-            name="vegan" 
+            name="diet" 
             value="vegan" 
             onChange={(e) => setIsVegan(e.target.value)}>
         </input>
@@ -24,7 +24,7 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan}) {
         <input 
             type="radio" 
             id="vegetarian"
-            name="vegetarian" 
+            name="diet" 
             value="vegetarian" 
             onChange={(e) => setIsVegan(e.target.value)}>
         </input>
@@ -32,7 +32,7 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan}) {
         <input 
             type="radio" 
             id="normal"
-            name="normal" 
+            name="diet" 
             value="normal" 
             onChange={(e) => setIsVegan(e.target.value)}>
         </input>
