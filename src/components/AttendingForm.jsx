@@ -10,6 +10,7 @@ import DayInfo from './DayInfo';
 export default function AttendingForm() {
       const [showInfo, setShowInfo] = useState(false)
       const [foodSubmit, setFoodSubmit] = useState(true)
+      const [showDayInfo, setShowDayInfo] = useState(false)
 
       const [isNonVeg, setNonVeg] = useState(false)
       const [isVegan, setIsVegan] = useState()
@@ -66,7 +67,7 @@ export default function AttendingForm() {
             <button type="submit" onClick={handleSubmit}>Let us know</button>
           </form> }
 
-          <DayInfo />
+          { showDayInfo && <DayInfo /> }
       </div>
     )
 }
