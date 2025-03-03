@@ -31,13 +31,29 @@ export default function AttendingForm() {
         <form id="attending" onSubmit={handleSubmit}>
           
           <form id="food" onSubmit={handleFoodSubmit}>
-            <DietaryInfo setDietary={setDietary} setName={setName} setIsVegan={setIsVegan} setNonVeg={setNonVeg}/>
-            <Starters setStarterChoice={setStarterChoice}/>
-            <Mains setMainChoice={setMainChoice}/>
+            <DietaryInfo 
+              setDietary={setDietary} 
+              setName={setName} 
+              setIsVegan={setIsVegan} 
+              setNonVeg={setNonVeg}
+            />
+            <Starters 
+              setStarterChoice={setStarterChoice}
+            />
+            <Mains 
+              setMainChoice={setMainChoice}
+            />
             <Dessert />
           </form>
-          <AdditionalInfo setMoney={setMoney} setSong={setSong} setDrink={setDrink}/>
-          <button type="submit">Let us know</button>
+
+          <form id="info">
+            <AdditionalInfo 
+              setMoney={setMoney} 
+              setSong={setSong} 
+              setDrink={setDrink}
+            />
+            <button type="submit">Let us know</button>
+          </form>
       </form>
     )
 }
