@@ -5,6 +5,7 @@ import Mains from './Mains';
 import Dessert from './Dessert';
 import DietaryInfo from './DietaryInfo';
 import AdditionalInfo from './AdditionalInfo';
+import DayInfo from './DayInfo';
 
 export default function AttendingForm() {
       const [showInfo, setShowInfo] = useState(false)
@@ -17,7 +18,7 @@ export default function AttendingForm() {
       const [mainChoice, setMainChoice] = useState('')
       const [name, setName] = useState('');
       const [dietary, setDietary] = useState('');
-      
+
       const [money, setMoney] = useState('');
       const [song, setSong] = useState('');
       const [drink, setDrink] = useState('');
@@ -62,6 +63,8 @@ export default function AttendingForm() {
             />
             <button type="submit" onClick={handleSubmit}>Let us know</button>
           </form> }
+
+          <DayInfo />
       </div>
     )
 }
