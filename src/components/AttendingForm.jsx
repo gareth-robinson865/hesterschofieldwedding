@@ -7,6 +7,7 @@ import DietaryInfo from './DietaryInfo';
 import AdditionalInfo from './AdditionalInfo';
 
 export default function AttendingForm() {
+      const [isNonVeg, setNonVeg] = useState(false)
       const [isVegan, setIsVegan] = useState(true)
       const [starterChoice, setStarterChoice] = useState('')
       const [mainChoice, setMainChoice] = useState('')
@@ -23,7 +24,7 @@ export default function AttendingForm() {
 
       const handleFoodSubmit = (e) => {
         e.preventDefault()
-        
+
       }
 
     return(
