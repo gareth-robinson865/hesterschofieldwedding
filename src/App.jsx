@@ -28,7 +28,10 @@ function App() {
       <div id="content">
         <Title />
         <WelcomeMessage />
-        <WelcomeForm updateAttending={updateAttending} updateNotAttending={updateNotAttending} />
+        { showMenu && <WelcomeForm 
+          updateAttending={updateAttending} 
+          updateNotAttending={updateNotAttending} 
+        /> }
           
         <div id="form">
         
