@@ -5,6 +5,7 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg
     <div>
         <h4>Your info</h4>
         <label htmlFor="name">Who is responding</label>
+        <br></br>
         <input 
             type="text" 
             id="name" 
@@ -36,7 +37,10 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg
             value="normal" 
             onChange={(e) => setNonVeg(e.target.value)}>
         </input>
+        <br></br>
+        <br></br>
         <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
+        <br></br>
         <input 
             type="text" 
             id="dietary" 
