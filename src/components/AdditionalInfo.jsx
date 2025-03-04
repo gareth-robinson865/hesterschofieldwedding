@@ -3,7 +3,6 @@ export default function AdditionalInfo({ setMoney, setDrink, setSong, setName })
   return (
     <div>
         <label htmlFor="name">Who is responding</label>
-        <br></br>
         <input 
             type="text" 
             id="name" 
