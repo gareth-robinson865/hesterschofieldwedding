@@ -2,7 +2,7 @@
 import { useState } from 'react'
 
 export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg}) {
-    const [evening, setEvening] = useState(true)
+    const [evening, setEvening] = useState(false)
     const [day, setDay] = useState(false)
   return (
     <div>
