@@ -1,7 +1,15 @@
 /* eslint-disable react/prop-types */
-export default function AdditionalInfo({ setMoney, setDrink, setSong}) {
+export default function AdditionalInfo({ setMoney, setDrink, setSong, setName }) {
   return (
     <div>
+        <label htmlFor="name">Who is responding</label>
+        <br></br>
+        <input 
+            type="text" 
+            id="name" 
+            name="name"  
+            required onChange={(e) => setName(e.target.value)}>
+        </input>
         <label htmlFor="moneySent">Have you sent the money over for the bar?</label>
         <input type="checkbox" id="moneySent" name="moneySent" onChange={(e) => setMoney(e.target.value)}></input>
         <br></br>
