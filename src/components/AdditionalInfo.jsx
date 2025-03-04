@@ -9,6 +9,7 @@ export default function AdditionalInfo({ setMoney, setDrink, setSong, setName })
             name="name"  
             required onChange={(e) => setName(e.target.value)}>
         </input>
+        <br></br>
         <label htmlFor="moneySent">Have you sent the money over for the bar?</label>
         <input type="checkbox" id="moneySent" name="moneySent" onChange={(e) => setMoney(e.target.value)}></input>
         <br></br>
