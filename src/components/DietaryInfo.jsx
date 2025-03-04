@@ -6,14 +6,7 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg
   return (
     <div>
         <h4>Your info</h4>
-        <label htmlFor="name">Who is responding</label>
-        <br></br>
-        <input 
-            type="text" 
-            id="name" 
-            name="name"  
-            required onChange={(e) => setName(e.target.value)}>
-        </input>
+        
         <div id="guestType">
             <h4>Are you joining us for the day or the evening?</h4>
             <label htmlFor="day">Day</label>
