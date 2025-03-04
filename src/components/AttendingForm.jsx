@@ -42,12 +42,12 @@ export default function AttendingForm() {
         <div>
           
           { foodSubmit && <form id="food" onSubmit={handleFoodSubmit}> 
-            <DietaryInfo 
+            { !isNonVeg && <DietaryInfo 
               setDietary={setDietary} 
               setName={setName} 
               setIsVegan={setIsVegan} 
               setNonVeg={setNonVeg}
-            />
+            /> }
             { isNonVeg && <Starters 
               setStarterChoice={setStarterChoice}
             /> }
