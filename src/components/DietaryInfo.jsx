@@ -34,7 +34,7 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg
                 onChange={() => setEvening(true)}>
             </input>
         </div>
-        <div id="foodStuff">
+        { day && <div id="foodStuff">
             <h4>Are you vegan, vegetarian or have dietary requirements</h4>
             <label htmlFor="vegan">Vegan</label>
             <input 
@@ -70,7 +70,7 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg
                 name="dietary" 
                 onChange={(e) => setDietary(e.target.value)}>
             </input>
-        </div>
+        </div> }
     </div>
   )
 }
