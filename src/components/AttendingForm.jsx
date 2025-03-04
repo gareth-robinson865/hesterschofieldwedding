@@ -47,6 +47,7 @@ export default function AttendingForm() {
               setIsVegan={setIsVegan} 
               setNonVeg={setNonVeg}
             /> }
+            <div>
             <Starters 
               setStarterChoice={setStarterChoice}
             /> 
@@ -55,6 +56,7 @@ export default function AttendingForm() {
             />
             <Dessert />
             <button type="submit">Tell us your choice</button>
+            </div>
           </form> }
 
           { showInfo && <form id="info">
