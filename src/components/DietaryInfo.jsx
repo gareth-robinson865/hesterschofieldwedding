@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
+import { useState } from 'react'
+
 export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg}) {
-    
+    const [evening, setEvening] = useState(true)
   return (
     <div>
         <h4>Your info</h4>
