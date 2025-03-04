@@ -58,7 +58,7 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg
                 id="normal"
                 name="diet" 
                 value="normal" 
-                onChange={(e) => setNonVeg(e.target.value)}>
+                onChange={() => setNonVeg(true)}>
             </input>
             <br></br>
             <br></br>
