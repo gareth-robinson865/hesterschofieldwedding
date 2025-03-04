@@ -5,7 +5,6 @@ export default function DietaryInfo({ setDietary, setIsVegan, setNonVeg}) {
     const [day, setDay] = useState(false)
   return (
     <div>
-        <h4>Your info</h4>
         <div id="guestType">
             <h4>Are you joining us for the day or the evening?</h4>
             <label htmlFor="day">Day</label>
