@@ -2,7 +2,6 @@
 import { useState } from 'react'
 
 export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg}) {
-    const [evening, setEvening] = useState(false)
     const [day, setDay] = useState(false)
   return (
     <div>
@@ -31,9 +30,10 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg
                 id="evening"
                 name="guestType"
                 value="evening"
-                onChange={() => setEvening(true)}>
+            >
             </input>
         </div>
+
         { day && <div id="foodStuff">
             <h4>Are you vegan, vegetarian or have dietary requirements</h4>
             <label htmlFor="vegan">Vegan</label>
