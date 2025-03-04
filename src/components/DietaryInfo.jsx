@@ -3,6 +3,7 @@ import { useState } from 'react'
 
 export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg}) {
     const [evening, setEvening] = useState(true)
+    const [day, setDay] = useState(false)
   return (
     <div>
         <h4>Your info</h4>
@@ -14,7 +15,17 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg
             name="name"  
             required onChange={(e) => setName(e.target.value)}>
         </input>
-        <h4></h4>
+        <div id="guestType">
+            <h4>Are you joining us for the day or the evening?</h4>
+            <label htmlFor="day">Day</label>
+            <input 
+                type="radio"
+                id="day"
+                name="guestType"
+                value="day"
+                onChange={() => setDay(true)}>
+            </input>
+        </div>
         <div id="foodStuff">
             <h4>Are you vegan, vegetarian or have dietary requirements</h4>
             <label htmlFor="vegan">Vegan</label>
