@@ -44,7 +44,6 @@ export default function AttendingForm() {
           { foodSubmit && <form id="food" onSubmit={handleFoodSubmit}> 
             { !isNonVeg && <DietaryInfo 
               setDietary={setDietary} 
-              setName={setName} 
               setIsVegan={setIsVegan} 
               setNonVeg={setNonVeg}
             /> }
@@ -60,6 +59,7 @@ export default function AttendingForm() {
 
           { showInfo && <form id="info">
             <AdditionalInfo 
+              setName={setName} 
               setMoney={setMoney} 
               setSong={setSong} 
               setDrink={setDrink}
