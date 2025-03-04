@@ -25,6 +25,14 @@ export default function DietaryInfo({ setDietary, setName, setIsVegan, setNonVeg
                 value="day"
                 onChange={() => setDay(true)}>
             </input>
+            <label htmlFor="evening">Evening</label>
+            <input 
+                type="radio"
+                id="evening"
+                name="guestType"
+                value="evening"
+                onChange={() => setEvening(true)}>
+            </input>
         </div>
         <div id="foodStuff">
             <h4>Are you vegan, vegetarian or have dietary requirements</h4>
