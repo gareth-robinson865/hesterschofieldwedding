@@ -59,7 +59,7 @@ export default function AttendingForm() {
 
           { showInfo && <form id="info">
             <AdditionalInfo 
-              setName={setName} 
+              setName={setName}
               setMoney={setMoney} 
               setSong={setSong} 
               setDrink={setDrink}
