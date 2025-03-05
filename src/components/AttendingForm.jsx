@@ -11,6 +11,7 @@ import EvenMoreInfo from './EvenMoreInfo';
 import Faq from './Faq';
 
 export default function AttendingForm() {
+      const [showFAQ, setShowFAQ] = useState(false)
       const [showEvenMoreInfo, setShowEvenMoreInfo] = useState(false)
       const [showMoreInfo, setShowMoreInfo] = useState(false)
       const [showInfo, setShowInfo] = useState(false)
