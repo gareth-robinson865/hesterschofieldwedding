@@ -55,6 +55,12 @@ export default function AttendingForm() {
         setShowMoreInfo(false)
         setShowEvenMoreInfo(true)
       }
+
+      const handleShowFAQ = (e) => {
+        e.preventDefault()
+        setShowEvenMoreInfo(false)
+        setShowFAQ(true)
+      }
     return(
         <div>
           
