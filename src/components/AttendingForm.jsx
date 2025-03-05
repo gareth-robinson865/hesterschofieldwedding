@@ -6,6 +6,7 @@ import Dessert from './Dessert';
 import DietaryInfo from './DietaryInfo';
 import AdditionalInfo from './AdditionalInfo';
 import DayInfo from './DayInfo';
+import MoreInfo from './MoreInfo';
 
 export default function AttendingForm() {
       const [showMoreInfo, setShowMoreInfo] = useState(false)
