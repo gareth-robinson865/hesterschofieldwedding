@@ -6,7 +6,7 @@ export default function EvenMoreInfo() {
         <p>There is a lot of uneven groundat the venue, so stilettos are not advised.</p>
         <h3>Travel / accomodation</h3>
         <p>If you are joining us from further afield, there are many places close by that you can
-        stay. The reception venue is 5 minutes’ drive from Knaresborough centre where there are many places to stay, or Harrogate which is around a 20-minute drive away.</p>
+        stay. The reception venue is 5 minutes drive from Knaresborough centre where there are many places to stay, or Harrogate which is around a 20-minute drive away.</p>
         <h3>Local taxi companies</h3>
         <p>Blue Line: 01423 530830 (Harrogate Based)</p>
         <p>SJK: 0113 250 5222 (Yeadon Based)</p>
