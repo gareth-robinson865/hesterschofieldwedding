@@ -14,7 +14,6 @@ export default function DayInfo() {
         <p>7:45PM to 11:45PM : Party Time</p>
         <p>12:00PM : Carriages</p>
       </div>
-      
     </div>
   )
 }
