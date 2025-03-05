@@ -55,8 +55,9 @@ export default function AttendingForm() {
               setMainChoice={setMainChoice}
             />
             <Dessert />
-            <button type="submit">Tell us your choice</button>
+            
             </div> }
+            <button type="submit">Tell us your choice</button>
           </form> }
 
           { showInfo && <form id="info">
