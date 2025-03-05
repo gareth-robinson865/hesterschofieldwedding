@@ -9,6 +9,7 @@ import DayInfo from './DayInfo';
 import MoreInfo from './MoreInfo';
 
 export default function AttendingForm() {
+      const [showEvenMoreInfo, setShowEvenMoreInfo] = useState(false)
       const [showMoreInfo, setShowMoreInfo] = useState(false)
       const [showInfo, setShowInfo] = useState(false)
       const [foodSubmit, setFoodSubmit] = useState(true)
@@ -82,6 +83,7 @@ export default function AttendingForm() {
 
           { showDayInfo && <DayInfo handleMoreInfo={handleMoreInfo}/> }
           { showMoreInfo && <MoreInfo /> }
+
       </div>
     )
 }
