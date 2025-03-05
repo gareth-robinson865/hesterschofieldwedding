@@ -1,4 +1,4 @@
-export default function DayInfo() {
+export default function DayInfo({ handleMoreInfo }) {
   return (
     <div id="mainInfo">
       <div id="schedule">
