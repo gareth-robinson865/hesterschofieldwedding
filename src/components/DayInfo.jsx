@@ -1,6 +1,7 @@
 export default function DayInfo() {
   return (
     <div>
+      <div>
         <h2>Info for the day</h2>
         <p>12:00AM to 12:15PM : Guests arrive</p>
         <p>12:30 to 1:15PM : Ceremony</p>
@@ -12,6 +13,7 @@ export default function DayInfo() {
         <p>7:30PM : First Dance</p>
         <p>7:45PM to 11:45PM : Party Time</p>
         <p>12:00PM : Carriages</p>
+      </div>
     </div>
   )
 }
