@@ -44,10 +44,8 @@ export default function AttendingForm() {
 
       const handleMoreInfo = (e) => {
         e.preventDefault()
-        console.log(showInfo, showMoreInfo)
         setShowDayInfo(false)
         setShowMoreInfo(true)
-        console.log(showInfo, showMoreInfo)
       }
 
     return(
