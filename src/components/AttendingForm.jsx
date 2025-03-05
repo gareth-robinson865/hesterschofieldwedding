@@ -7,6 +7,7 @@ import DietaryInfo from './DietaryInfo';
 import AdditionalInfo from './AdditionalInfo';
 import DayInfo from './DayInfo';
 import MoreInfo from './MoreInfo';
+import EvenMoreInfo from './EvenMoreInfo';
 
 export default function AttendingForm() {
       const [showEvenMoreInfo, setShowEvenMoreInfo] = useState(false)
