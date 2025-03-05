@@ -12,6 +12,7 @@ export default function Mains({setMainChoice}) {
             id="main1" 
             name="mains" 
             value="beef" 
+            required
             onChange={(e) => setMainChoice(e.target.value)}>
         </input> <br></br>
 
