@@ -8,6 +8,7 @@ import AdditionalInfo from './AdditionalInfo';
 import DayInfo from './DayInfo';
 
 export default function AttendingForm() {
+      const [showMoreInfo, setShowMoreInfo] = useState(false)
       const [showInfo, setShowInfo] = useState(false)
       const [foodSubmit, setFoodSubmit] = useState(true)
       const [showDayInfo, setShowDayInfo] = useState(false)
