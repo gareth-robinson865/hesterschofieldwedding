@@ -29,7 +29,7 @@ function App() {
       </div>
       <div id="content">
         <Title />
-        <WelcomeMessage />
+        { showMenu && <WelcomeMessage /> }
         { showMenu && <WelcomeForm 
           updateAttending={updateAttending} 
           updateNotAttending={updateNotAttending} 
