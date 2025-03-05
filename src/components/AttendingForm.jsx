@@ -95,7 +95,8 @@ export default function AttendingForm() {
 
           { showDayInfo && <DayInfo handleMoreInfo={handleMoreInfo}/> }
           { showMoreInfo && <MoreInfo handleEvenMoreInfo={handleEvenMoreInfo}/> }
-          { showEvenMoreInfo && <EvenMoreInfo /> }
+          { showEvenMoreInfo && <EvenMoreInfo handleShowFAQ={handleShowFAQ} /> }
+          { showFAQ && <Faq />}
       </div>
     )
 }
