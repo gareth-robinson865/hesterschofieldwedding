@@ -1,4 +1,4 @@
-export default function EvenMoreInfo() {
+export default function EvenMoreInfo({ handleShowFAQ }) {
   return (
     <div>
         <h3>Outfits</h3>
