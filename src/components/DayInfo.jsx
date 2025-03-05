@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function DayInfo({ handleMoreInfo }) {
   return (
     <div id="mainInfo">
@@ -14,7 +15,7 @@ export default function DayInfo({ handleMoreInfo }) {
         <p>7:45PM to 11:45PM : Party Time</p>
         <p>12:00PM : Carriages</p>
       </div>
-      <button type="submit">More info</button>
+      <button type="submit" onClick={handleMoreInfo}>More info</button>
     </div>
   )
 }
