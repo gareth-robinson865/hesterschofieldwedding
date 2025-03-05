@@ -12,6 +12,7 @@ export default function Starters({ setStarterChoice }) {
             id="starter1" 
             name="starters" 
             value="cheese" 
+            required
             onChange={(e) => setStarterChoice(e.target.value)}>
         </input> <br></br>
 
