@@ -11,7 +11,7 @@ export default function MoreInfo() {
         <p>The site will be open at any time for you to access your vehicle before then.</p>
         <h3>Gifts</h3>
         <p>Please do not feel obliged to buy us a gift, your company is more than enough. If you would like to give something we would appreciate a contribution to our honeymoon fund.</p>
-      
+        <button type="submit">We have more info</button>
     </div>
   )
 }
