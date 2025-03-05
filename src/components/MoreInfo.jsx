@@ -1,4 +1,4 @@
-export default function MoreInfo() {
+export default function MoreInfo({ handleEvenMoreInfo }) {
   return (
     <div>
         
