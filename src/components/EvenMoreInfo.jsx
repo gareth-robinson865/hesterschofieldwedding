@@ -12,6 +12,7 @@ export default function EvenMoreInfo({ handleShowFAQ }) {
         <p>SJK: 0113 250 5222 (Yeadon Based)</p>
         <p>Knaresborough cars: 01423 552266 (small company based in Knaresborough)</p>
         <p>Please note, as the venue is difficult to find with the postcode and Uber is temperamental in Knaresborough and Harrogate area, please ensure that all taxis are booked in advance.</p>
+        <button type="submit" onClick={handleShowFAQ}>See our FAQs</button>
     </div>
   )
 }
