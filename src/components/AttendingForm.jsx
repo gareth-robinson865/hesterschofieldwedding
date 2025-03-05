@@ -78,7 +78,7 @@ export default function AttendingForm() {
             <button type="submit" onClick={handleSubmit}>Let us know</button>
           </form> }
 
-          { showDayInfo && <DayInfo /> }
+          { showDayInfo && <DayInfo handleMoreInfo={handleMoreInfo}/> }
           { showMoreInfo && <MoreInfo /> }
       </div>
     )
