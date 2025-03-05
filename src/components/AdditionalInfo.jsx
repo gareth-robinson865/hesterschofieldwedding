@@ -20,7 +20,7 @@ export default function AdditionalInfo({ setMoney, setDrink, setSong, setName })
         <br></br>
         <br></br>
         <label htmlFor="favDrink">Let us know your favourite drink</label>
-        <input type="text" id="favDrink" name="favDrink" onChange={(e) => setDrink(e.target.value)}></input>
+        <input type="text" id="favDrink" name="favDrink" required onChange={(e) => setDrink(e.target.value)}></input>
         <br></br>
         <br></br>
     </div>
