@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-export default function AdditionalInfo({ setMoney, setDrink, setSong, setName }) {
+export default function AdditionalInfo({ setMoney, setDrink, setSong, setName, handleSubmit }) {
   return (
     <div>
         <label htmlFor="name">Who is responding</label>
