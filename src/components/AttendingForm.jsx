@@ -34,7 +34,7 @@ export default function AttendingForm() {
       const [song, setSong] = useState('');
       const [drink, setDrink] = useState('');
       const [isNonVeg, setNonVeg] = useState(false)
-      const [isVegan, setIsVegan] = useState()
+      
 
       //functions for info
       const handleInfoSubmit = async (e) => {
@@ -79,7 +79,6 @@ export default function AttendingForm() {
           { foodSubmit && <form id="food" onSubmit={handleFoodSubmit}> 
             { !isNonVeg && <DietaryInfo 
               setDietary={setDietary} 
-              setIsVegan={setIsVegan} 
               setNonVeg={setNonVeg}
             /> }
             { isNonVeg && <div>
