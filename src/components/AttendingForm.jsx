@@ -1,5 +1,7 @@
 //styles
 import './AttendingForm.css';
+//data
+import { projectFirestore } from '../firebase/config';
 //functions
 import { useState } from 'react';
 //components
