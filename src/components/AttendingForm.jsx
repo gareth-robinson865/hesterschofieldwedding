@@ -90,6 +90,7 @@ export default function AttendingForm() {
               setSong={setSong} 
               setDrink={setDrink}
             />
+            <button type="submit">Let us know</button>
           </form> }
 
           { showDayInfo && <DayInfo handleMoreInfo={handleMoreInfo}/> }
