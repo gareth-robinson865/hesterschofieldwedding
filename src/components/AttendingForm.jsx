@@ -83,7 +83,7 @@ export default function AttendingForm() {
             <button type="submit">Tell us your choice</button>
           </form> }
 
-          { showInfo && <form id="info">
+          { showInfo && <form id="info" onSubmit={handleSubmit}>
             <AdditionalInfo 
               handleSubmit={handleSubmit}
               setName={setName}
