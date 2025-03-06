@@ -29,7 +29,7 @@ export default function AttendingForm() {
       const [starterChoice, setStarterChoice] = useState('')
       const [mainChoice, setMainChoice] = useState('')
       const [name, setName] = useState('');
-      const [dietary, setDietary] = useState('');
+      const [dietaryNotes, setDietary] = useState('');
       const [money, setMoney] = useState('');
       const [song, setSong] = useState('');
       const [drink, setDrink] = useState('');
@@ -39,7 +39,8 @@ export default function AttendingForm() {
       //functions for info
       const handleInfoSubmit= (e) => {
         e.preventDefault()
-        console.log(name, money, song, drink, isNonVeg, isVegan, starterChoice, mainChoice, dietary)
+        const doc = { name, starterChoice, mainChoice, }
+        console.log(name, money, song, drink, isNonVeg, isVegan, starterChoice, mainChoice, dietaryNotes)
         setShowDayInfo(true)
         setShowInfo(false)
       }
