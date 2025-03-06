@@ -49,7 +49,7 @@ export default function DietaryInfo({ setDietary, setIsVegan, setNonVeg}) {
                 type="radio" 
                 id="normal"
                 name="diet" 
-                value="none" 
+                value="not vegan or veggie" 
                 onChange={(e) => setNonVeg(e.target.value)}>
             </input>
             <br></br>
