@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react'
 
-export default function DietaryInfo({ setDietary, setIsVegan, setNonVeg}) {
+export default function DietaryInfo({ setDietary, setNonVeg}) {
     const [day, setDay] = useState(false)
+    const [isVegan, setIsVegan] = useState()
   return (
     <div>
         <div id="guestType">
@@ -54,14 +55,16 @@ export default function DietaryInfo({ setDietary, setIsVegan, setNonVeg}) {
             </input>
             <br></br>
             <br></br>
-            <label htmlFor="dietary">Let us know if you have any dietary requirements</label>
-            <br></br>
-            <input 
-                type="text" 
-                id="dietary" 
-                name="dietary" 
-                onChange={(e) => setDietary(e.target.value)}>
-            </input>
+            { isVegan && <div>
+                <label htmlFor="dietary">Please let us know your dietary requirements</label>
+                <br></br>
+                <input 
+                    type="text" 
+                    id="dietary" 
+                    name="dietary" 
+                    onChange={(e) => setDietary(e.target.value)}>
+                </input>
+            </div> }
         </div> }
     </div>
   )
