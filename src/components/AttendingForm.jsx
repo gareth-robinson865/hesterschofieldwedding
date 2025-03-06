@@ -39,8 +39,8 @@ export default function AttendingForm() {
       //functions for info
       const handleInfoSubmit= (e) => {
         e.preventDefault()
-        const doc = { name, starterChoice, mainChoice, }
-        console.log(name, money, song, drink, isNonVeg, isVegan, starterChoice, mainChoice, dietaryNotes)
+        const doc = { dietaryNotes, drink, isNonVeg, isVegan, mainChoice, money, name, song, starterChoice }
+        
         setShowDayInfo(true)
         setShowInfo(false)
       }
