@@ -44,8 +44,6 @@ export default function AttendingForm() {
         setShowInfo(false)
       }
 
-      
-
       //functions for handling state changes
       const handleFoodSubmit = (e) => {
         e.preventDefault()
