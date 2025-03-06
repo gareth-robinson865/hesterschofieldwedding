@@ -85,7 +85,6 @@ export default function AttendingForm() {
 
           { showInfo && <form id="info" onSubmit={handleSubmit}>
             <AdditionalInfo 
-              handleSubmit={handleSubmit}
               setName={setName}
               setMoney={setMoney} 
               setSong={setSong} 
