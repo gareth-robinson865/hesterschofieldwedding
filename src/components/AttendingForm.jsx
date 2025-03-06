@@ -1,5 +1,8 @@
+//styles
 import './AttendingForm.css';
+//functions
 import { useState } from 'react';
+//components
 import Starters from './Starters';
 import Mains from './Mains';
 import Dessert from './Dessert';
@@ -9,6 +12,7 @@ import DayInfo from './DayInfo';
 import MoreInfo from './MoreInfo';
 import EvenMoreInfo from './EvenMoreInfo';
 import Faq from './Faq';
+
 
 export default function AttendingForm() {
       const [showFAQ, setShowFAQ] = useState(false)
