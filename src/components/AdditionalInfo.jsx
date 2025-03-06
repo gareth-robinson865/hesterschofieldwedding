@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-export default function AdditionalInfo({ setMoney, setDrink, setSong, setName, handleSubmit }) {
+export default function AdditionalInfo({ setMoney, setDrink, setSong, setName }) {
   return (
     <div>
         <label htmlFor="name">Who is responding</label>
@@ -24,7 +24,6 @@ export default function AdditionalInfo({ setMoney, setDrink, setSong, setName, h
         <input type="text" id="favDrink" name="favDrink" required onChange={(e) => setDrink(e.target.value)}></input>
         <br></br>
         <br></br>
-        <button type="submit" onClick={handleSubmit}>Let us know</button>
     </div>
   )
 }
