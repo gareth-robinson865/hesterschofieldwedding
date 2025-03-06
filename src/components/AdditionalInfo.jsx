@@ -24,7 +24,7 @@ export default function AdditionalInfo({ setMoney, setDrink, setSong, setName })
         <input type="text" id="favDrink" name="favDrink" required onChange={(e) => setDrink(e.target.value)}></input>
         <br></br>
         <br></br>
-        
+        <button type="submit" onClick={handleSubmit}>Let us know</button>
     </div>
   )
 }
