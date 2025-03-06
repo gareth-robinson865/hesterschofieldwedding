@@ -42,12 +42,12 @@ export default function AttendingForm() {
         const doc = { dietaryNotes, drink, isNonVeg, isVegan, mainChoice, money, name, song, starterChoice }
         try {
           await projectFirestore.collection('Guests').add(doc)
-        } catch(err) {
+          setShowDayInfo(true)
+          setShowInfo(false)
+          } catch(err) {
           console.log(err)
+          }
         }
-        setShowDayInfo(true)
-        setShowInfo(false)
-      }
 
       //functions for handling state changes
       const handleFoodSubmit = (e) => {
