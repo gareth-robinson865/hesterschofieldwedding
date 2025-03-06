@@ -11,7 +11,7 @@ export default function Starters({ setStarterChoice }) {
             type="radio" 
             id="starter1" 
             name="starters" 
-            value="cheese" 
+            value="baked goats cheese" 
             required
             onChange={(e) => setStarterChoice(e.target.value)}>
         </input> <br></br>
@@ -21,7 +21,7 @@ export default function Starters({ setStarterChoice }) {
             type="radio" 
             id="starter2" 
             name="starters" 
-            value="fishcakes" 
+            value="Thai spiced fishcakes" 
             required
             onChange={(e) => setStarterChoice(e.target.value)}>
         </input> <br></br>
