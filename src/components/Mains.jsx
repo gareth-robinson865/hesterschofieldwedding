@@ -11,7 +11,7 @@ export default function Mains({setMainChoice}) {
             type="radio" 
             id="main1" 
             name="mains" 
-            value="beef" 
+            value="beef en croute" 
             required
             onChange={(e) => setMainChoice(e.target.value)}>
         </input> <br></br>
@@ -21,7 +21,7 @@ export default function Mains({setMainChoice}) {
             type="radio" 
             id="main2" 
             name="mains" 
-            value="salmon" 
+            value="salmon en croute" 
             required
             onChange={(e) => setMainChoice(e.target.value)}>
         </input> <br></br>
