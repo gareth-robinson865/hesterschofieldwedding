@@ -34,11 +34,8 @@ function App() {
           updateAttending={updateAttending} 
           updateNotAttending={updateNotAttending} 
         /> }
-          
         <div id="form">
-        
           { showNotAttending && <NotAttendingForm />}
-
           { showAttending && <AttendingForm /> }
         </div>
       </div>
