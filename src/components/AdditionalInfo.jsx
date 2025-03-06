@@ -7,7 +7,8 @@ export default function AdditionalInfo({ setMoney, setDrink, setSong, setName })
             type="text" 
             id="name" 
             name="name"  
-            required onChange={(e) => setName(e.target.value)}>
+            required 
+            onChange={(e) => setName(e.target.value)}>
         </input>
         <br></br>
         <br></br>
@@ -23,6 +24,7 @@ export default function AdditionalInfo({ setMoney, setDrink, setSong, setName })
         <input type="text" id="favDrink" name="favDrink" required onChange={(e) => setDrink(e.target.value)}></input>
         <br></br>
         <br></br>
+        
     </div>
   )
 }
