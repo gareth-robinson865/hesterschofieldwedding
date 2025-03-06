@@ -85,12 +85,12 @@ export default function AttendingForm() {
 
           { showInfo && <form id="info">
             <AdditionalInfo 
+              handleSubmit={handleSubmit}
               setName={setName}
               setMoney={setMoney} 
               setSong={setSong} 
               setDrink={setDrink}
             />
-            <button type="submit" onClick={handleSubmit}>Let us know</button>
           </form> }
 
           { showDayInfo && <DayInfo handleMoreInfo={handleMoreInfo}/> }
