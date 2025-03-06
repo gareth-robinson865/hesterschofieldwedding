@@ -15,25 +15,28 @@ import Faq from './Faq';
 
 
 export default function AttendingForm() {
-      const [showFAQ, setShowFAQ] = useState(false)
-      const [showEvenMoreInfo, setShowEvenMoreInfo] = useState(false)
-      const [showMoreInfo, setShowMoreInfo] = useState(false)
-      const [showInfo, setShowInfo] = useState(false)
+      //component state
       const [foodSubmit, setFoodSubmit] = useState(true)
       const [showDayInfo, setShowDayInfo] = useState(false)
-
-      const [isNonVeg, setNonVeg] = useState(false)
-      const [isVegan, setIsVegan] = useState()
-
+      const [showInfo, setShowInfo] = useState(false)
+      const [showMoreInfo, setShowMoreInfo] = useState(false)
+      const [showEvenMoreInfo, setShowEvenMoreInfo] = useState(false)
+      const [showFAQ, setShowFAQ] = useState(false)
+      
+      //data state
       const [starterChoice, setStarterChoice] = useState('')
       const [mainChoice, setMainChoice] = useState('')
       const [name, setName] = useState('');
       const [dietary, setDietary] = useState('');
-
       const [money, setMoney] = useState('');
       const [song, setSong] = useState('');
       const [drink, setDrink] = useState('');
+      const [isNonVeg, setNonVeg] = useState(false)
+      const [isVegan, setIsVegan] = useState()
 
+      
+
+      
       const handleSubmit= (e) => {
         e.preventDefault()
         console.log(name, money, song, drink)
