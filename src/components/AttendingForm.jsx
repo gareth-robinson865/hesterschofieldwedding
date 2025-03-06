@@ -39,7 +39,7 @@ export default function AttendingForm() {
       //functions for info
       const handleInfoSubmit = async (e) => {
         e.preventDefault()
-        const doc = { dietaryNotes, drink, isNonVeg, isVegan, mainChoice, money, name, song, starterChoice }
+        const doc = { dietaryNotes, drink, mainChoice, money, name, song, starterChoice }
         try {
           await projectFirestore.collection('Guests').add(doc)
           setShowDayInfo(true)
