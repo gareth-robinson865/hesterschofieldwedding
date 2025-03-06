@@ -37,7 +37,7 @@ export default function AttendingForm() {
       const [isVegan, setIsVegan] = useState()
 
       //functions for info
-      const handleInfoSubmit= (e) => {
+      const handleInfoSubmit = async (e) => {
         e.preventDefault()
         const doc = { dietaryNotes, drink, isNonVeg, isVegan, mainChoice, money, name, song, starterChoice }
         
