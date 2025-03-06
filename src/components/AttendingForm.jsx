@@ -80,7 +80,7 @@ export default function AttendingForm() {
             <Dessert />
             
             </div> }
-            <button type="submit">Tell us your choice</button>
+            <button type="submit">Let us know</button>
           </form> }
 
           { showInfo && <form id="info" onSubmit={handleSubmit}>
