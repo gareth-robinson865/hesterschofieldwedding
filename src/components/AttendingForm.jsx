@@ -37,21 +37,22 @@ export default function AttendingForm() {
       const [isVegan, setIsVegan] = useState()
 
       //functions for info
-      const handleSubmit= (e) => {
-        e.preventDefault()
-        console.log(name, money, song, drink)
-        setShowDayInfo(true)
-        setShowInfo(false)
-      }
+     
 
+      console.log(name, money, song, drink)
+      console.log(isNonVeg, isVegan, starterChoice, mainChoice, dietary, foodSubmit)
+
+      //functions for handling state changes
       const handleFoodSubmit = (e) => {
         e.preventDefault()
-        console.log(isNonVeg, isVegan, starterChoice, mainChoice, dietary, foodSubmit)
         setFoodSubmit(false)
         setShowInfo(true)
       }
-
-      //functions for handling state changes
+      const handleInfoSubmit= (e) => {
+        e.preventDefault()
+        setShowDayInfo(true)
+        setShowInfo(false)
+      }
       const handleMoreInfo = (e) => {
         e.preventDefault()
         setShowDayInfo(false)
