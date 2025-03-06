@@ -22,6 +22,7 @@ export default function Starters({ setStarterChoice }) {
             id="starter2" 
             name="starters" 
             value="fishcakes" 
+            required
             onChange={(e) => setStarterChoice(e.target.value)}>
         </input> <br></br>
     </div>
