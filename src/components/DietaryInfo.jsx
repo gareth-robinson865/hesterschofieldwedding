@@ -62,6 +62,7 @@ export default function DietaryInfo({ setDietary, setNonVeg}) {
                     type="text" 
                     id="dietary" 
                     name="dietary" 
+                    required
                     onChange={(e) => setDietary(e.target.value)}>
                 </input>
             </div> }
