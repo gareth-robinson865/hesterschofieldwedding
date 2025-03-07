@@ -17,7 +17,6 @@ function App() {
     setShowAttending(true);
     setShowNotAttending(false);
     setShowMenu(false)
-    console.log(import.meta.env)
   }
 
   function updateNotAttending() {
@@ -28,8 +27,8 @@ function App() {
 
   return (
     <>
-      <div id="picture">
-      </div> 
+      { !showPassword &&<div id="picture">
+      </div> }
       { showPassword && <Password
           setShowPassword={setShowPassword} /
       >}
