@@ -31,7 +31,8 @@ function App() {
       </div>
       <div id="content">
         <Title />
-        { showPassword && <Password />}
+        { showPassword && <Password
+          setShowPassword={setShowPassword} />}
         { showMenu && <WelcomeMessage /> }
         { showMenu && <WelcomeForm 
           updateAttending={updateAttending} 
