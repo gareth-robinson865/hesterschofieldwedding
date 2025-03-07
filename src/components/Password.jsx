@@ -14,17 +14,20 @@ export default function Password({ setShowPassword }) {
             setShowPassword(false)
         } else {
             console.log("incorrect")
+            alert('Thats not correct try again')
             document.getElementById('passwordAttempt').value = ""
         }
 
     }
   return (
     <div id="passwordForm">
-        <h3>We would love for you to join us on our Wedding day</h3>
+        {/*<h3>We would love for you to join us on our Wedding day</h3>*/}
         <form onSubmit={checkPassword}>
             <label htmlFor="password">Please enter the code on your invitation</label>
             <br></br>
+            <br></br>
             <input type="password" id="passwordAttempt"></input>
+            <br></br>
             <br></br>
             <button type="submit">Enter</button>
         </form>
