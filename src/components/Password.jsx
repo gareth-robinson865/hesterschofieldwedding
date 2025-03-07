@@ -5,7 +5,7 @@ export default function Password({ setShowPassword }) {
     const checkPassword = (e) => {
         e.preventDefault()
         const password = "Chloe&Dave2025";
-        console.log(password)
+        console.log(import.meta.env)
         let passwordAttempt = document.getElementById('passwordAttempt').value
         if (passwordAttempt === password) {
             console.log("correct")
