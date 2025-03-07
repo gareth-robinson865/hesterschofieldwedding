@@ -27,12 +27,12 @@ function App() {
 
   return (
     <>
-      { showPassword &&<div id="picture">
-      </div> }
+      <div id="picture">
+      </div> 
       { showPassword && <Password
           setShowPassword={setShowPassword} /
       >}
-      { showPassword && <div id="content">
+      { !showPassword && <div id="content">
         <Title />
         { showMenu && <WelcomeMessage /> }
         { showMenu && <WelcomeForm 
