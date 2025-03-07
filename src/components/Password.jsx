@@ -4,6 +4,7 @@ export default function Password({ setShowPassword }) {
     
     const checkPassword = (e) => {
         e.preventDefault()
+        const passwordAttempt = document.getElementById('passwordAttempt')
 
     }
   return (
@@ -11,7 +12,7 @@ export default function Password({ setShowPassword }) {
         <h3>We would love for you to join us on our Wedding day</h3>
         <form onSubmit={checkPassword}>
             <label htmlFor="password">Please enter the code on your invitation</label>
-            <input type="password"></input>
+            <input type="password" id="passwordAttempt"></input>
             <button type="submit">Enter</button>
         </form>
     </div>
