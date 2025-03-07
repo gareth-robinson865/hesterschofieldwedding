@@ -4,12 +4,14 @@ export default function Password({ setShowPassword }) {
     
     const checkPassword = (e) => {
         e.preventDefault()
-        const passwordAttempt = document.getElementById('passwordAttempt').value
+        let passwordAttempt = document.getElementById('passwordAttempt').value
         if (passwordAttempt === password) {
             console.log("correct")
+            passwordAttempt = ""
             setShowPassword(false)
         } else {
             console.log("incorrect")
+            document.getElementById('passwordAttempt').value = ""
         }
 
     }
