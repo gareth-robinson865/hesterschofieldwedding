@@ -27,12 +27,13 @@ function App() {
 
   return (
     <>
-      <div id="picture">
-      </div>
-      <div id="content">
+      { showPassword &&<div id="picture">
+      </div> }
+      { showPassword && <Password
+          setShowPassword={setShowPassword} /
+      >}
+      { showPassword && <div id="content">
         <Title />
-        { showPassword && <Password
-          setShowPassword={setShowPassword} />}
         { showMenu && <WelcomeMessage /> }
         { showMenu && <WelcomeForm 
           updateAttending={updateAttending} 
@@ -42,7 +43,7 @@ function App() {
           { showNotAttending && <NotAttendingForm />}
           { showAttending && <AttendingForm /> }
         </div>
-      </div>
+      </div> }
     </>
   )
 }
