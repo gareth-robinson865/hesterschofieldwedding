@@ -27,8 +27,8 @@ function App() {
 
   return (
     <>
-      { !showPassword &&<div id="picture">
-      </div> }
+      <div id="picture">
+      </div>
       { showPassword && <Password
           setShowPassword={setShowPassword} /
       >}
