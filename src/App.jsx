@@ -11,6 +11,7 @@ function App() {
   const [showAttending, setShowAttending] = useState(false)
   const [showNotAttending, setShowNotAttending] = useState(false)
   const [showMenu, setShowMenu] = useState(true)
+  const [showPassword, setShowPassword] = useState(true)
 
   function updateAttending() {
     setShowAttending(true);
