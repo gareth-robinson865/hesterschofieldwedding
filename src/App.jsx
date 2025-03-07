@@ -5,6 +5,7 @@ import WelcomeMessage from './components/welcomeMessage';
 import WelcomeForm from './components/WelcomeForm';
 import AttendingForm from './components/AttendingForm';
 import NotAttendingForm from './components/NotAttendingForm';
+import Password from './components/Password';
 
 function App() {
   const [showAttending, setShowAttending] = useState(false)
@@ -29,6 +30,7 @@ function App() {
       </div>
       <div id="content">
         <Title />
+
         { showMenu && <WelcomeMessage /> }
         { showMenu && <WelcomeForm 
           updateAttending={updateAttending} 
