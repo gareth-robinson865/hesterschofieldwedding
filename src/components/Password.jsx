@@ -6,6 +6,7 @@ export default function Password({ setShowPassword }) {
         <form>
             <label htmlFor="password">Please enter the code on your invitation</label>
             <input type="password"></input>
+            <button type="submit">Enter</button>
         </form>
     </div>
   )
