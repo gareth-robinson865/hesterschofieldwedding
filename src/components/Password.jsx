@@ -4,7 +4,9 @@ export default function Password({ setShowPassword }) {
     
     const checkPassword = (e) => {
         e.preventDefault()
-        let passwordAttempt = document.getElementById('passwordAttempt').value
+        const password = import.meta.env.VITE_PASSWORD;
+        console.log(password)
+        {/*let passwordAttempt = document.getElementById('passwordAttempt').value
         if (passwordAttempt === password) {
             console.log("correct")
             passwordAttempt = ""
@@ -12,7 +14,7 @@ export default function Password({ setShowPassword }) {
         } else {
             console.log("incorrect")
             document.getElementById('passwordAttempt').value = ""
-        }
+        }*/}
 
     }
   return (
