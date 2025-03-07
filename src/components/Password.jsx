@@ -22,7 +22,9 @@ export default function Password({ setShowPassword }) {
         <h3>We would love for you to join us on our Wedding day</h3>
         <form onSubmit={checkPassword}>
             <label htmlFor="password">Please enter the code on your invitation</label>
+            <br></br>
             <input type="password" id="passwordAttempt"></input>
+            <br></br>
             <button type="submit">Enter</button>
         </form>
     </div>
