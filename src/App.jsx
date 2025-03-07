@@ -17,6 +17,7 @@ function App() {
     setShowAttending(true);
     setShowNotAttending(false);
     setShowMenu(false)
+    console.log(import.meta.env)
   }
 
   function updateNotAttending() {
