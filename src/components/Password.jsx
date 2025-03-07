@@ -7,6 +7,7 @@ export default function Password({ setShowPassword }) {
         const passwordAttempt = document.getElementById('passwordAttempt').value
         if (passwordAttempt === password) {
             console.log("correct")
+            setShowPassword(false)
         } else {
             console.log("incorrect")
         }
