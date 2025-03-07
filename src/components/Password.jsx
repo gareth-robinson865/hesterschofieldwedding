@@ -1,4 +1,4 @@
-export default function Password() {
+export default function Password({ setShowPassword }) {
   return (
     <div>
         
