@@ -30,7 +30,7 @@ function App() {
       </div>
       <div id="content">
         <Title />
-
+        { showPassword && <Password />}
         { showMenu && <WelcomeMessage /> }
         { showMenu && <WelcomeForm 
           updateAttending={updateAttending} 
