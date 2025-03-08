@@ -5,3 +5,10 @@
     padding: 0;
     margin: 0;
 }
+
+@media (max-width:800px) {
+    #welcomeForm {
+        flex-direction: column;
+    }
+    
+}
