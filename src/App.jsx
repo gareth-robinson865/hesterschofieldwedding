@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import MediaQuery from 'react-responsive'
 import './App.css';
 import Title from './components/Title';
 import WelcomeMessage from './components/welcomeMessage';
