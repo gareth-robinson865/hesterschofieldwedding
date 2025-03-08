@@ -28,8 +28,10 @@ function App() {
 
   return (
     <>
-      <div id="picture">
-      </div>
+      <MediaQuery minWidth={800}>
+        <div id="picture">
+        </div>
+      </MediaQuery>
       { showPassword && <Password
           setShowPassword={setShowPassword} /
       >}
