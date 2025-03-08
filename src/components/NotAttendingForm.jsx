@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { projectFirestore } from '../firebase/config';
 
 export default function NotAttendingForm() {
 
