@@ -5,10 +5,18 @@ export default function NotAttendingForm() {
     const [name, setName] = useState('')
     const [message, setMessage] = useState('')
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault()
-        console.log(name, message)
-    }
+        const doc = { name, message }
+        try {
+          await projectFirestore.collection('Not attending guests').add(doc)
+          setShowDayInfo(true)
+          setShowInfo(false)
+          } catch(err) {
+          console.log(err)
+          }
+        }
+    
     
     return(
         <form id="notAttending" onSubmit={handleSubmit}>
