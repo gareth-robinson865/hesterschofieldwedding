@@ -23,7 +23,9 @@ export default function Password({ setShowPassword }) {
         <form id="passwordForm" onSubmit={checkPassword}>
             <label htmlFor="password">Please enter the code on your invitation</label>
             <br></br>
+            <br></br>
             <input type="password" id="passwordAttempt"></input>
+            <br></br>
             <br></br>
             <button type="submit">Enter</button>
         </form>
