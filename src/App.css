@@ -52,3 +52,24 @@ html, body {
     grid-column: 1/3;
   }
 }
+
+#passwordForm {
+  width:94%;
+  background: #f9e7cf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  grid-column: 2 /3;
+  height:94%;
+  border: 3px solid #087c15;
+  border-radius: 8%;
+  margin: 15px;
+}
+
+@media (max-width:800px) {
+  #passwordForm {
+      background-color: #087c15;
+      grid-column: 1 / 3;
+  }
+}
