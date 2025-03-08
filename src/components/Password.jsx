@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import '../components/Password.css'
 export default function Password({ setShowPassword }) {
     
     
