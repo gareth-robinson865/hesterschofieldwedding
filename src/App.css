@@ -5,12 +5,12 @@ html, body {
   text-align: center;
   color: darkgreen;
   font-family: "Dancing Script", serif;
-  transition: all .4s ease;
+  background-color: #f9e7cf;
   
 
 #root {
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 45% 55%;
   width: 100%;
   height: 100%;
 }
@@ -19,11 +19,11 @@ html, body {
   background-image: url('./images/Image1.jpg');
   background-size: cover;
   grid-column: 1 / 2;
-  border-radius: 2%;
   background-position: center;
-  background-size: cover;
-  height: 90%;
-  width: 90%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 95%;
+  width: 100%;
   
 }
 
@@ -38,7 +38,6 @@ html, body {
   height:94%;
   border: 3px solid #087c15;
   border-radius: 8%;
-  margin: 15px;
 }
 
 #form {
