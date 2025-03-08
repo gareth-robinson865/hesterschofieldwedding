@@ -11,8 +11,7 @@ export default function NotAttendingForm() {
         const doc = { name, message }
         try {
           await projectFirestore.collection('Not attending guests').add(doc)
-          setShowDayInfo(true)
-          setShowInfo(false)
+          alert('Sorry you cannot make it, thanks for the message')
           } catch(err) {
           console.log(err)
           }
