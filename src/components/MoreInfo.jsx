@@ -2,7 +2,6 @@
 export default function MoreInfo({ handleEvenMoreInfo }) {
   return (
     <div>
-        
         <h3>Church</h3>
         <p>St Mary`s Church has plenty of roadside parking. Please refrain from taking pictures during the ceremony, our photographer has this covered.</p>
         <h3>Reception</h3>
